@@ -1,0 +1,5 @@
+body,html{font-family:'微软雅黑','黑体','宋体',sans-serif;}
+body,p,h1,h2,h3,h4,h5,h6,ul,li,td,dl,table,tbody,header,footer,label,form,ol,dt,img,iframe,input,a{margin:0px;padding:0px;outline:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+table{border-collapse:collapse;border-spacing:0;}

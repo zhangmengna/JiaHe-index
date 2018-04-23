@@ -1,0 +1,281 @@
+
+@media (min-width: 1200px) {
+	body{font-size:62.5% !important;}
+	.container {
+		width: 1024px;
+		position: relative;
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+
+@media (min-width: 992px) and (max-width:1200px;
+) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media (min-width: 768px) and (max-width:922px;) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width:769px) and (max-width:992px) {
+	/*html {
+		font-size: 58%;
+	}*/
+}
+
+@media (max-width:500px) {
+	/*html {
+		font-size: 40%;
+	}*/
+	.industryRightCon {
+		margin-left: 20px;
+	}
+	.hoverAnimate {
+		width: 96%;
+	}
+}
+
+@media (max-width:768px) and (min-width:500px) {
+	.hoverAnimate {
+		width: 97%;
+	}
+}
+
+@media (max-width:768px) and (min-height:500px) {
+	.logo{background:url(../images/image_phone_logo_hscpro.png) no-repeat;background-size:100% 100%;}
+	.nav .sonNav .productMenu {
+		max-height: 360px;
+		overflow-y: auto;
+	}
+}
+
+@media (max-width:768px) {
+	/*body{overflow-x:hidden !important;}*/
+	body{font-size:65%;}
+	.section3{margin-top:10px;}
+	.container {
+		padding: 0px;
+		margin: 0px;
+	}
+	/*.sectionConTitle, .sectionConTitle2{font-size:3.5em;}*/
+	.intro h1 {
+		font-size: 10em;
+	}
+	.intro h2 {
+		font-size: 6em;
+	}
+	.intro p {
+		font-size: 5em;
+	}
+	.navbar-nav {
+		margin: 0px;
+		background: #f4f4f4;
+	}
+	.nav>li>a {
+		height: auto;
+		width: 120px;
+		position: relative;
+	}
+	.nav>li>a span {
+		position: absolute;
+		right: 5px;
+		top: 15px;
+		width: 10px;
+		height: 10px;
+	}
+	.nav .navLi {
+		margin-top: 0px;
+	}
+	.nav .sonNav ul {
+		float: none;
+	}
+	.nav .sonNav {
+		top: 10px;
+		left: 120px !important;
+		border-top: none;
+	}
+	.nav .sonNav .productMenu {
+		width: 251px;
+		background: #e4e4e4;
+	}
+	.nav .soluteNav {
+		background: #e4e4e4;
+	}
+	.navbar-collapse {
+		margin-top: -1px;
+		background: #f4f4f4;
+		overflow: visible;
+	}
+	.navbar-collapse.in {
+		overflow: visible;
+	}
+	.nav .sonNav li.grandsonTitle {
+		margin-top: 10px;
+		height: 40px;
+		line-height: 40px;
+	}
+	/*.nav .sonNav li a:hover{background:#3c96d0;color:#fff !important;}*/
+	.nav .sonNav .productMenu ul {
+		margin-left: 0px !important;
+	}
+	.nav .sonNav li a {
+		border-left: none;
+	}
+	.sm-slide {
+		background: url(../images/key-active.png) no-repeat right center;
+	}
+	.nav .cloud {
+		margin-top: 0px;
+		background: none;
+	}
+	.productCon {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+	.productCon div.con {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.hoverAnimate {
+		width: 95%;
+		height: 190px;
+		text-align: center;
+	}
+	.hoverAnimateCon a{font-size:3.4em;}
+	.hoverAnimateCon {
+		top: 115px;
+		width: 260;
+		left: 50%;
+		margin-left: -150px;
+	}
+	.section2,
+	.section3,
+	.section4,
+	.section5 {
+		height: auto !important;
+		padding: 50px 0 0 !important;
+	}
+	.partnerCon {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.partnerCon img {
+		width: 100%;
+	}
+	.partnerMore {
+		margin-bottom: 20px;
+	}
+	p .moreBtn {
+		position: relative;
+		bottom: 60px;
+	}
+	.sectionAboutUs .aboutContent {
+		padding: 0px;
+	}
+	.banner-btn a {
+		top: 260px;
+	}
+	.industryLeftCon {
+		margin-bottom: 20px;
+	}
+	.cloud a{color:#3c96d0 !important;}
+}
+
+@media (max-width:992px) and (min-width:768px) {
+	/*.section2,.section3,.section4,.section5 {
+		height: auto !important;
+		padding: 50px 0 0 !important;
+	}*/
+	body{overflow-x:hidden !important;}
+	.container{margin:0px;padding:0px;}
+	.hoverAnimate {
+		height: 260px;
+		width:260px;
+	}
+	.section4 {
+		height: auto !important;
+	}
+	.productCon div.con{width:260px;}
+	.industryLeftCon {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:768px) {
+	.conRight {
+		padding: 0 10px;
+	}
+	/*p img {
+		width: 100%;
+	}*/
+	/*.jiahePic img{width:100%;}*/
+	.xs-mt10 {
+		margin-top: 10px;
+	}
+	.hideCon {
+		display: none;
+	}
+	/*.cloud a{color:#3c96d0 !important;}*/
+	.mapPic {
+		left: 50%;
+		margin-left: -150px;
+	}
+	.solutionBanner {
+		background-size: 100% 50%;
+	}
+	.healthBanner {
+		background-size: 100% 50%;
+	}
+	.ylBanner {
+		background-size: 100% 50%;
+	}
+	.sqBanner {
+		background-size: 100% 50%;
+	}
+	.industryBanner {
+		background-size: 100% 50%;
+	}
+	.gxBanner,
+	.partnerBanner {
+		background-size: 100% 50%;
+	}
+	.mt-120 {
+		margin-top: -120px;
+	}
+	.aboutBanner {
+		background-size: 100% 50%;
+	}
+	.bannerbg {
+		background-size: 100% 50%;
+	}
+	.shuline {
+		display: none;
+	}
+	.returnEco {
+		margin-top: 0px;
+	}
+	.conBigTitle{margin-top:0px;}
+	/*.ecology .conBigTitle{font-size:1.5em;}*/
+	.link{margin-bottom:20px;}
+}
+@media (min-width:768px) and (max-width:992px) {
+	.sm-mt10 {
+		margin-top: 10px;
+	}
+	.hidePic {
+		display: none;
+	}
+	/*.conBigTitle {
+		font-size: 2em !important;
+	}*/
+	.jiahePic img {
+		width: 100%;
+	}
+	.link {
+		margin-left: 40px;
+	}
+}

@@ -1,0 +1,815 @@
+@charset "utf-8";
+body{font-size:62.5%;}
+#id_content {
+	margin-top: 74px;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: left;
+}
+
+.conText p {
+	height: 36px;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.conText p.line {
+	overflow: hidden;
+	height: 2px;
+	background: #ec3027;
+}
+
+.aboutCon.soluteCon,
+.yanglaoCon,
+.ecology,
+.jgyanglao,
+.sqyanglao {
+	overflow: hidden;
+}
+
+.yanglaoCon p,
+.jgyanglaoCon p,
+.sqyanglaoCon p,
+.textIn {
+	text-indent: 2em;
+}
+
+.yanglaoCon h2 {
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+	/*font-size: 1.6rem !important;*/
+	font-weight: normal;
+}
+
+.conRight {
+	padding: 0 110px;
+	overflow: hidden;
+}
+
+.about .row {
+	padding: 10px 0 0 0;
+}
+
+.yl img,
+.jb img,
+.jk img,
+.yb img {
+	width: 100%;
+}
+
+.aboutCon {
+	margin-bottom: 50px;
+}
+
+.aboutCon h1,
+.soluteCon h1,
+.jgyanglao h1,
+.sqyanglao h1,
+.yanglaoCon h1,
+.ecology h1 {
+	color: #EC3027;
+	height: 36px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.aboutCon h1.gaikuang {
+	margin-top: 20px;
+}
+
+.partnerPageCon {
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+.aboutCon .map {
+	background: url(../images/map.jpg) no-repeat;
+	width: 240px;
+	height: 200px;
+}
+
+.conRight p,
+.conRight h2 {
+	line-height: 30px;
+	font-size: 2.6em;
+	text-align: left;
+}
+
+.conRight h2 {
+	margin-bottom: 10px;
+	/*margin-top: 20px;*/
+	color: #333;
+}
+
+.contRight div.conRightCon p,
+.medicalRightCon p {
+	text-indent: 2em;
+	color: #333;
+}
+.aboutRight .link p{position:relative;}
+.aboutRight .link p:first-child{margin-bottom:18px;}
+.aboutRight .link p span.address{display:inline-block;line-height:24px;}
+.aboutRight .link label {
+	text-align: right;
+	margin-right: 10px;
+	display: inline-block;
+	width: 80px;
+	margin-left: -18px;
+	position:relative;
+	left:0px;
+}
+.aboutRight .link span{display:inline-block;text-align:left;position:absolute;left:80px;}
+.conRightTitle {
+	font-size: 2em !important;
+	margin-top: 15px;
+}
+
+.conLeft {
+	padding-left: 18px;
+}
+
+/*.conLeft ul {
+	list-style: none;
+	margin-top: 10px;
+	font-size: 1.8rem;
+}*/
+
+.conLeft li,
+ul.selectType li {
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.conLeft li a,
+ul.selectType li a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	color: #333;
+	font-size: 2.6em;
+	padding-left: 10px;
+}
+
+.ml40 {
+	margin-left: 40px;
+}
+
+.jianju {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.solutionBanner {
+	background: url(../images/smart_payer_image_banner.jpg) no-repeat;
+}
+
+.healthBanner {
+	background: url(../images/polulation_health_image_banner.jpg) no-repeat;
+}
+
+.ylBanner {
+	background: url(../images/protects_institutional_image_banner.jpg) no-repeat;
+}
+
+.sqBanner {
+	background: url(../images/protects_community_image_banner.jpg) no-repeat;
+}
+
+.industryBanner {
+	background: url(../images/Industry_ecology_banner.jpg) no-repeat;
+}
+
+.gxBanner {
+	background: url(../images/protects_provide_highschool_banner.jpg) no-repeat;
+}
+
+.aboutBanner {
+	background: url(../images/about_us_image_banner.jpg) no-repeat;
+}
+
+.bannerbg {
+	background-image: url(../images/pension_cloud_banner.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	z-index: -1;
+}
+
+.partnerBanner {
+	background: url(../images/partner_banner.jpg) no-repeat;
+}
+
+.solutionBanner,
+.healthBanner,
+.ylBanner,
+.industryBanner,
+.aboutBanner,
+.partnerBanner,
+.sqBanner,
+.gxBanner,.bannerbg{
+	width: 100%;
+	height: 300px;
+	background-size:cover;
+}
+
+.conRightCon {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.project div {
+	float: left;
+	margin-top: 20px;
+}
+
+.project div.projectLogo {
+	margin-right: 30px;
+}
+
+.project div.projectLogo img {
+	margin-top: 20px;
+}
+
+.project .projectConTitle {
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.project .projectConTitle span {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.project .projectConCon {
+	font-size: 1.4em;
+	width: 580px;
+}
+
+.project .join {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.project .join input {
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	background: #ec3027;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.project .join input:hover {
+	color: #EC3027;
+	background: #fff;
+	border: 1px solid #EC3027;
+}
+
+.footerCon {
+	position: relative;
+	margin-top: 0px;
+	bottom: 0px;
+	width: 100%;
+}
+
+.ylcontent {
+	margin-bottom: 100px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.ylcontent h2 {
+	font-size: 2.6em;
+	color: #333;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+.ylcontent img {
+	z-index: 1000;
+	border: 0;
+}
+
+.ylcontent .subtitle {
+	font-size: 2em;
+	margin: 10px 0 30px 0;
+	padding: 0;
+	color: #666
+}
+
+.ylcontent .prd1,
+.ylcontent .prd2 {
+	background-repeat: no-repeat;
+	background-position: 30px 23px;
+}
+
+.ylcontent .prd1 {
+	background-image: url(../images/jgicon.png);
+	width: 100%;
+	height: 136px;
+}
+
+.ylcontent .prd2 {
+	background-image: url(../images/sqicon.png);
+	width: 100%;
+	height: 136px;
+}
+
+.ylcontent .joinBtn {
+	width: 60px;
+	height: 32px;
+	line-height: 32px;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size:2em;
+}
+
+.ylcontent .joinBtn:hover {
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/*行业生态*/
+
+.ecologyMain {
+	margin-top: 30px;
+}
+
+.ecologyCon {
+	overflow: hidden;
+}
+
+.ecologyCon h1 {
+	margin: 0px;
+	font-size: 2em;
+}
+
+.ecologyCon h1.ecoTitle a {
+	width: 300px;
+	color: #9ECB43;
+	font-weight: bold;
+	font-size:1.8em;
+}
+
+.ecologyCon h2 {
+	font-size: 1.4em;
+}
+
+.ecologyCon P input {
+	margin-top: 20px;
+}
+
+.ecologyConLeft {
+	float: left;
+}
+
+.part {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.part>div {
+	float: left;
+}
+
+.part p img {
+	margin-top: 20px;
+}
+
+.ecoText {
+	line-height: 28px;
+	font-size: 2.6em;
+	text-indent: 2em;
+	margin-top: 10px;
+}
+
+h2.keyTitle {
+	font-size: 2.6em;
+	color: #fff;
+	margin-bottom: 10px;
+	background-color: #9ECB43;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	padding-left: 10px;
+}
+
+.newsInfo {
+	margin: 30px 0;
+	position: relative;
+}
+
+.moreInfo p {
+	line-height: 36px;
+	font-size: 2.6em;
+	width: 240px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.moreInfo p a {
+	color: #333;
+	text-decoration: none;
+	background: url(../images/icon.png) no-repeat 10px 7px;
+	padding-left: 25px;
+}
+
+.moreInfo p a:hover {
+	text-decoration: underline;
+}
+
+
+/*页码*/
+
+
+/*.holder {
+	width: 680px;
+	text-align: center;
+}*/
+
+
+/*.holder ul {
+	overflow: hidden;
+	position: relative;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+}*/
+
+.holder {
+	margin-bottom: 40px;
+}
+
+.holder li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-right: 10px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.holder a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/industry_ecology_button_page_bg_default.png) no-repeat;
+	margin-left: 20px;
+	color: #333;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1.4em;
+}
+
+.holder a.jp-previous,
+.holder a.jp-next {
+	position: relative;
+	top: 15px;
+}
+
+.holder a.jp-previous {
+	background: url(../images/industry_ecology_button_prve_default.png) no-repeat;
+}
+
+.holder a.jp-previous:hover {
+	background: url(../images/industry_ecology_button_prve_selected.png) no-repeat;
+}
+
+.holder a.jp-current {
+	background: url(../images/industry_ecology_button_page_bg_selected.png) no-repeat;
+	color: #fff;
+}
+
+.holder a.jp-next {
+	background: url(../images/industry_ecology_button_next_default.png) no-repeat;
+}
+
+.holder a.jp-next:hover {
+	background: url(../images/industry_ecology_button_next_selected.png) no-repeat;
+}
+
+.rightText {
+	text-align: right;
+	margin-top: 20px;
+	font-size: 1.4em;
+}
+
+.centerText {
+	text-align: center !important;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1.4em;
+	line-height: 28px;
+}
+
+.redText {
+	color: #9ecb43 !important;
+}
+
+.ml20 {
+	margin-left: 20px;
+}
+
+.active {
+	background: url(../images/slide.png) no-repeat right;
+	color: red !important;
+}
+
+.mt140 {
+	margin-top: 140px;
+}
+
+.content dl {
+	margin-left: 124px;
+	font-size: 2em;
+	margin-top: 22px;
+	cursor: pointer;
+	color: #777;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.pageTwoCon {
+	display: none;
+}
+
+.textCenter {
+	text-align: center !important;
+	font-size: 2.6em;
+}
+
+.blueText {
+	color: #3e6097;
+}
+
+.show {
+	display: block !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+.titleImg {
+	background: url(../images/return.png) no-repeat right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.tab {
+	margin-top: 10px;
+}
+
+.tab a {
+	display: block;
+	padding-left: 10px;
+	width: 200px;
+	text-decoration: none;
+	color: #333;
+	font-size: 1.6em;
+	height: 40px;
+	line-height: 40px;
+}
+
+.eng {
+	font-size: 2.6em;
+}
+
+.heal-title {
+	font-size: 2.4em !important;
+	color: #EC3027;
+	font-weight: bold;
+	text-indent: 0em !important;
+	margin-top: 20px;
+	text-align: center !important;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.font-italic {
+	font-style: italic;
+	color: #9a9a9a;
+}
+
+.f18 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.selectType li a {
+	background: url(../images/key.png) no-repeat 10px;
+	padding-left: 30px;
+}
+
+.keyTitle {
+	background: url(../images/key2.png) no-repeat 10px;
+	padding-left: 30px !important;
+}
+
+.grey {
+	color: #9A9A9A;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.newsConTitle {
+	font-size: 2.6em;
+	margin-top: 10px;
+}
+
+.conBigTitle,
+.conMedTitle {
+	text-align: center !important;
+}
+
+.conBigTitle {
+	color: #9ECB43 !important;
+}
+
+.conMedTitle {
+	color: #3c96d0 !important;
+}
+
+.conBigTitle {
+	font-size: 4.5em;
+	margin-top: 40px;
+}
+
+.conMedTitle {
+	font-size: 4em !important;
+	font-weight: normal;
+}
+
+.padd {
+	padding: 0 20px;
+}
+
+.companyCul {
+	padding-left: 10px;
+	color: #ec3027 !important;
+	text-align: left;
+	background: #e6e6e6;
+	line-height: 40px !important;
+}
+
+.returnEco {
+	margin-top: 10px;
+}
+
+.returnEco p {
+	height: 30px;
+	line-height: 30px;
+	background: #eaeaea;
+}
+
+.returnEco p a {
+	display: inline-block;
+	font-size: 2.6em;
+	color: #a7a7a7;
+	text-decoration: none;
+	background: url(../images/post-previous.png) no-repeat #eaeaea 5px 5px;
+	padding-left: 35px;
+}
+
+.relativeCom {
+	width: 100%;
+}
+
+.relativeCom a {
+	display: inline-block;
+	font-size: 2.4em;
+	color: #fff;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background: #9ECB43;
+	border-radius: 20px;
+}
+
+.relativeCom a:hover {
+	box-shadow: 0px 2px #ccc;
+}
+
+.textIn0 {
+	text-indent: 0em !important;
+}
+
+div.shuline {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 1px;
+	background: #ccc;
+	height: 150px;
+}
+
+@media (max-width:768px) {
+	.conRight {
+		padding: 0 10px;
+	}
+	p img {
+		width: 100%;
+	}
+	/*.jiahePic img{width:100%;}*/
+	.xs-mt10 {
+		margin-top: 10px;
+	}
+	.hideCon {
+		display: none;
+	}
+	/*.cloud a{color:#3c96d0 !important;}*/
+	.mapPic {
+		left: 50%;
+		margin-left: -150px;
+	}
+	.solutionBanner {
+		background-size: 100% 50%;
+	}
+	.healthBanner {
+		background-size: 100% 50%;
+	}
+	.ylBanner {
+		background-size: 100% 50%;
+	}
+	.sqBanner {
+		background-size: 100% 50%;
+	}
+	.industryBanner {
+		background-size: 100% 50%;
+	}
+	.gxBanner,
+	.partnerBanner {
+		background-size: 100% 50%;
+	}
+	.mt-120 {
+		margin-top: -120px;
+	}
+	.aboutBanner {
+		background-size: 100% 50%;
+	}
+	.bannerbg {
+		background-size: 100% 50%;
+	}
+	.shuline {
+		display: none;
+	}
+	.returnEco {
+		margin-top: 0px;
+	}
+	.conBigTitle{margin-top:0px;}
+	/*.ecology .conBigTitle{font-size:4em;}*/
+	.link{margin-bottom:20px;}
+}
+
+@media (min-width:768px) and (max-width:992px) {
+	.sm-mt10 {
+		margin-top: 10px;
+	}
+	.hidePic {
+		display: none;
+	}
+	.conBigTitle {
+		font-size: 2em !important;
+	}
+	.jiahePic img {
+		width: 100%;
+	}
+	.link {
+		margin-left: 40px;
+	}
+}
+.yanglaoCon .product_sever{overflow:hidden;margin-top:50px;}
+.yanglaoCon .product_sever:first-child{margin-top:0px;}
+.yanglaoCon .product_sever h1{margin:0px;padding:0px;font-size:18px;color:#65b782;height:40px;line-height:40px;}
+.yanglaoCon .product_sever div{float:left;width:45%;}
+.yanglaoCon .product_sever div.ps_img_zd,
+.yanglaoCon .product_sever div.ps_img_yy,
+.yanglaoCon .product_sever div.ps_img_jx{height:240px;}
+.yanglaoCon .product_sever div:last-child{margin-left:10%;}
+.yanglaoCon .product_sever .ps_img_zd{background:url("../images/pic_zd.png") no-repeat;background-size:contain;}
+.yanglaoCon .product_sever .ps_img_yy{background:url("../images/pic_yy.png") no-repeat;background-size:contain;}
+.yanglaoCon .product_sever .ps_img_jx{background:url("../images/pic_jx.png") no-repeat;background-size:contain;}
+.point{font-size:16px;display:inline-block;width:20px;text-align:center;position:relative;top:-3px;}

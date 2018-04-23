@@ -1,0 +1,657 @@
+body {
+	font-size: 62.5% !important;
+}
+
+body {
+	background: #fff;
+	overflow-x: hidden;
+}
+
+.logo {
+	display: inline-block;
+	background: url(../images/image_logo_hscpro.png) no-repeat;
+	width: 200px;
+	height: 74px;
+	text-indent: -999px;
+	cursor:pointer;
+}
+
+.navbar {
+	background: #fff;
+	height: 74px !important;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 2px 2px 10px #ccc;
+}
+
+.nav .productNav li {
+	width: 120px;
+}
+
+.nav>li>a {
+	color: #333;
+	font-size: 16px;
+	font-weight: '微软雅黑';
+	height: 60px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background: none;
+	color: #9ECB43;
+}
+.cloud a{color:#fff !important;margin-top:6px;}
+.navbar .navbar-toggle {
+	margin-top: 22px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background: #333;
+}
+
+.nav .navLi {
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.nav .cloud {
+	margin-right: 0px;
+	margin-top: 13px;
+	background: url(../images/image_cloud.png) no-repeat 5px 0px;
+}
+
+.nav .soluteNav li {
+	width: 150px;
+}
+
+.nav .sonNav {
+	background: #f4f4f4;
+	font-size: 1.4em;
+	margin: 0px;
+	display: none;
+	position: absolute;
+	border-top: 1px solid #ccc;
+	top: 53px;
+	left: -330px;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.nav .soluteNav {
+	width: 120px !important;
+	left: 0px !important;
+}
+
+.nav .sonNav li {
+	height: 40px;
+	line-height: 40px;
+	float: none;
+	list-style: none;
+}
+
+.nav .sonNav li.underLine {
+	height: 1px !important;
+	overflow: hidden;
+	background: #dcdcdc;
+}
+
+.nav .sonNav li a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.8em;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	padding: 0 15px;
+}
+
+.nav .sonNav li a:hover {
+	color:#fff;
+	background:#3c96d0;
+}
+
+.nav .sonNav ul {
+	float: left;
+}
+
+.nav .sonNav .productMenu {
+	width: 900px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.nav .sonNav .productMenu ul {
+	margin-left: 70px;
+}
+
+.ml30 {
+	margin-left: 30px !important;
+}
+
+.nav .sonNav .soluteMenu {
+	width: 750px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.nav .sonNav .soluteMenu ul {
+	margin-left: 70px;
+}
+
+.nav .sonNavTitle {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #EC3027;
+}
+
+.nav .sonNavTitle span {
+	display: inline-block;
+	line-height: 40px;
+	color: #fff;
+	background: #EC3027;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.nav .productMenu .sonNavTitle span {
+	width: 80px;
+}
+
+.nav .soluteMenu .sonNavTitle span {
+	width: 100px;
+}
+
+.nav .sonNav li.grandsonTitle {
+	height: 60px;
+	font-size: 2em;
+	font-weight: bold;
+	color: #9ECB43;
+	padding-left: 15px !important;
+	line-height: 60px;
+	margin-top: 20px;
+}
+
+.nav .slideup {
+	height: 10px;
+	display: block;
+	background: url(../images/slideup.png) no-repeat center;
+}
+
+.section1 {
+	padding: 74px 0 0 0 !important;
+	*padding-top:0px !important;
+	position: relative;
+}
+
+.section1 .hd {
+	position: absolute;
+	/*top:360px;_top:300px !important;top:300px\9 !important;top:360px\9\0 !important;*/
+	bottom: 20px;
+	width: 170px;
+	left: 50%;
+	margin-left: -65px;
+}
+
+.section1 .hd ul li {
+	width: 20px;
+	height: 5px;
+	border-radius: 5px;
+	text-indent: -9999px;
+	margin-right: 20px;
+	background: #ccc;
+	float: left;
+	cursor: pointer;
+}
+
+.section1 .bd {
+	width: 100% !important;
+	height: 100% !important;
+	position: relative;
+}
+
+.section1 .bd li .m-width {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.section1 .bd ul {
+	height: 100%;
+}
+
+.section1 .bd li {
+	width: 100% !important;
+	height: 100%;
+}
+
+.section1 .bd li a {
+	display: block;
+	background-size: auto;
+}
+
+.banner_list {
+	width: 100% !important;
+}
+
+.banner-btn {
+	width: 100%;
+	/*min-width: 1024px;*/
+	position: absolute;
+	height: 100%;
+	bottom: 0px;
+}
+
+.banner-btn a {
+	display: block;
+	width: 49px;
+	height: 104px;
+	position: absolute;
+	top: 300px;
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+}
+
+.banner-btn a.prev {
+	left: 15px;
+	background: url(../images/left.png) no-repeat 0 0;
+}
+.banner-btn a.prev:hover{background:url(../images/leftHover.png) no-repeat 0 0;}
+.banner-btn a.next {
+	right: 15px;
+	background: url(../images/right.png) no-repeat 0px 0;
+}
+.banner-btn a.next:hover{background:url(../images/rightHover.png) no-repeat 0 0;}
+.section1 .hd ul li.on {
+	background: #3c96d0;
+}
+
+.intro {
+	width: 100%;
+	text-align: center;
+	padding-top: 130px;
+}
+
+.intro h1,
+.intro h2,
+.intro p {
+	color: #fff;
+	font-weight: normal;
+	font-family: "MISSYUAN_造字工坊悦黑_0", "宋体", arial;
+	margin-bottom: 15px;
+}
+
+.intro h1 {
+	font-size: 13em;
+	background:url(../images/home_banner_line.png) no-repeat center center;
+	margin-bottom: 20px;
+	/*animation-duration: 2s;*/
+}
+
+.intro h2 {
+	font-size: 8em;
+	/*animation-duration:5s;*/
+}
+
+.intro p {
+	font-size: 6em;
+	font-family: 'Segoe UI'/*
+	animation-duration:5s;*/
+}
+
+.section1 .slide1 {
+	background: url(../images/home_image_banner_bg_01.jpg) no-repeat;
+}
+
+.section1 .slide2 {
+	background: url(../images/home_image_banner_bg_02.jpg) no-repeat;
+}
+
+.section1 .slide3 {
+	background: url(../images/home_image_banner_bg_03.jpg) no-repeat;
+}
+
+.section1 .slide4 {
+	background: url(../images/home_image_banner_bg_04.jpg) no-repeat;
+}
+
+.section1 .slide1,
+.section1 .slide2,
+.section1 .slide3,
+.section1 .slide4 {
+	background-size: cover;
+}
+
+.section3 {
+	background: url(../images/home_image_partner_bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.section5 {
+	background: url(../images/home_image_about_us_bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.section5 {
+	padding-top: 0 !important;
+}
+
+.sectionConTitle {
+	background: url(../images/home_image_title_line.png) no-repeat center center;
+}
+
+.sectionConTitle2 {
+	background: url(../images/home_image_title_line_white.png) no-repeat center center;
+}
+
+.sectionConTitle,
+.sectionConTitle2 {
+	/*width: 1024px;*/
+	height: 65px;
+	font-size: 3.4em;
+	text-align: center;
+}
+
+.sectionConTitle p,
+.sectionConTitle2 p {
+	font-size: 1em;
+}
+
+.size1 {
+	font-size: 3em;
+	margin-top: 20px;
+}
+
+.size2 {
+	font-size: 2.2em;
+}
+
+.size3 {
+	font-size: 2.6em;
+}
+
+.hoverAnimate {
+	width: 280px;
+	height: 280px;
+	position: absolute;
+	top: 60px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: 98;
+}
+.blue{background:#3c96d0;}
+.green{background:#9ecb43;}
+.hoverAnimateCon {
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	z-index: 99;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.hoverAnimateCon p {
+	margin-top: 15px;
+	width: 240px;
+	text-align: text;
+	margin-left: 30px;
+}
+
+.hoverAnimateCon a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 3em;
+}
+
+.hoverAnimateCon a:hover {
+	text-decoration: underline;
+}
+
+.mb50 {
+	margin-bottom: 50px;
+}
+
+.partnerTitle {
+	color: #fff;
+}
+.productCon img{position:relative;z-index:99;}
+.productCon div.con {
+	width: 280px;
+}
+
+.productCon p span {
+	color: #ff0000;
+	margin-left: 10px;
+}
+
+.productCon p.size1 {
+	font-family: "微软雅黑", "宋体", arial;
+}
+
+.productCon p.size3 {
+	margin-top: 20px;
+	padding: 0 10px;
+}
+
+.solutionCon div.con {
+	width: 300px;
+	position: relative;
+}
+
+.partnerCon {
+	text-align: center;
+	margin-top: 30px;
+	padding: 0 50px;
+}
+
+.partnerCon .partnerConBottom {
+	position: relative;
+	left: -85px;
+}
+
+.partnerMore {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.partnerMore a {
+	text-align: center;
+	cursor: pointer;
+	color: #e6e6e6;
+	font-size: 3.5em;
+}
+
+.partnerMore a:hover {
+	color: #9ecb43;
+}
+
+.industryNews {
+	position: relative;
+}
+
+.industryNews img {
+	width: 100%;
+}
+
+.industryNews a {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 3em;
+	background: #fff;
+	opacity: 0.9;
+	filter: alpha(opacity=80);
+	color: #9ECB43;
+	padding-left: 15px;
+}
+
+.industryNews a:hover {
+	color: #fff;
+	background: #9ECB43;
+}
+
+.industryLeftTitle {
+	font-weight: bold;
+}
+
+.industryLeftTitle a {
+	color: #333;
+	font-size: 3em;
+	line-height: 45px;
+}
+
+.industryLeftTitle a:hover {
+	text-decoration: underline;
+}
+
+.industryLeftCon {
+	text-indent: 2em;
+	font-size: 2.6em;
+	line-height: 1.8em;
+}
+
+.industryCon {
+	margin: 0 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.industryCon .row {
+	margin-bottom: 20px;
+}
+
+.industryRightCon a {
+	color: #333;
+	font-size: 2.6em;
+	line-height: 1.4em;
+}
+
+.industryRightCon a:hover {
+	text-decoration: underline;
+}
+.company{width:100%;text-align:center;color:#9ECB43;font-size:3em;margin-bottom:30px;font-weight:bold;}
+.sectionAboutUs {
+	padding-top: 130px;
+}
+
+.sectionAboutUs .aboutContent {
+	margin-top: 50px;
+	padding: 0 50px;
+}
+
+.aboutContent {
+	margin-bottom: 50px;
+}
+
+.aboutIntro {
+	text-align: left !important;
+	text-indent: 2em;
+	font-size: 2.6em;
+	line-height: 1.8em;
+}
+
+p .moreBtn {
+	text-decoration: none;
+	margin-top: 30px;
+	background: #3c96d0;
+	border: none;
+	width: 100px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 2.6em;
+	color: #fff;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.aboutContent p .moreBtn {
+	margin-top: 50px;
+}
+
+p .moreBtn:hover {
+	/*background: #ec3027;
+	color: #fff;*/
+	border-bottom:3px solid rgba(0,0,0,0.2);
+}
+
+.footerCon {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.footer {
+	background: #d9d9d9c;
+	text-align: center;
+}
+
+.footer p {
+	text-align: center;
+	color: #949494;
+	padding: 5px 0;
+	font-size: 2em;
+}
+
+.footer p a {
+	color: #949494;
+}
+
+.footer p a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+#backToTop,
+#backTop {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	border-radius: 5px;
+	z-index: 1000;
+	display: none;
+}
+
+#backTop {
+	width: 40px;
+	height: 40px;
+	background: url('../images/button_top_default.png');
+	background-size: cover;
+}
+
+#backTop:hover {
+	background: url(../images/button_top_selected.png) no-repeat;
+}
+
+#backToTop a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('../images/button_top_default.png');
+	background-size: cover;
+}
+
+#backToTop a:hover {
+	background: url(../images/button_top_selected.png) no-repeat;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+.redText{color:#9ECB43 !important;}
+
+/*.mr0{margin-left:0px !important;}
+.ml0{margin-right:0px !important;}*/
+
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+

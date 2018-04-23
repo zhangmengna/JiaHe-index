@@ -1,0 +1,29 @@
+.conRightCon > .pics{
+  width:102%;
+  overflow: hidden;
+}
+.conRightCon > .pics > .pic{
+  float: left;
+  width:18%;
+  margin-right:2%;
+  display: block;
+  margin-bottom: 2%;
+}
+.conRightCon > .pics > .pic > img{
+  width:100%;
+}
+.mark{
+  width:100%;
+  overflow: hidden;
+  display: none;
+  background: #fff;
+}
+.mark >.show{
+  width:40%;
+  margin:0 auto;
+  background: pink;
+}
+.mark>.show>img{
+  width:100%;
+
+}

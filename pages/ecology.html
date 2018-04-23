@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Keywords" content="嘉美在线,嘉美,嘉美在线科技有限公司,养老,居家照料,居家照顾,社区,居家">
+		<meta name="Description" content="北京嘉美在线科技有限公司官方网站">
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-control" content="no-cache">
+		<meta http-equiv="Cache" content="no-cache">
+		<link type="image/x-icon" href="favicon.ico" rel="icon" />
+		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+		<link type="image/x-icon" href="favicon.ico" rel="bookmark" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script src="js/jquery-1.12.1.min.js"></script>
+	</head>
+
+	<body>
+		<div class="industryBanner"></div>
+		<div class="container ecologyMain mt-120">
+			
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+					<div id="moreContent">
+
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hideCon">
+					<h2 class='keyTitle'> 行业类别</h2>
+					<ul class="selectType">
+						<li><a href="javascript:"> 医保智能监控</a></li>
+						<li><a href="javascript:"> 养老服务</a></li>
+						<li><a href="javascript:"> 健康管理</a></li>
+						<li><a href="javascript:"> 疾病控制</a></li>
+					</ul>
+					<div class="newsInfo">
+						<img src="images/newInfo.jpg" style="width:100%;"/>
+
+					</div>
+					<h2 class="keyTitle" > 最新动态</h2>
+					<div class="moreInfo">
+						<p><a href="javascript:location.href='model.html?id=new_first.html'">陕西省城乡居民医保将全面实行一体化制度</a></p>
+						<p><a href="javascript:location.href='model.html?id=new_second.html'">哈市生育保险将网上“一站式”办结</a></p>
+						<p><a href="javascript:location.href='model.html?id=new_third.html'">社会办医“非禁即可” 按规纳入医保定点</a></p>
+						<p><a href="javascript:location.href='model.html?id=new_four.html'">李克强：家政服务和社会养老都是经济“新动能”</a></p>
+						<p><a href="javascript:location.href='model.html?id=new_five.html'">全国医疗保险工作座谈会召开</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<script src="js/sonPage.js"></script>
+		<title>北京嘉和美康在线科技有限公司</title>
+		<script>
+			$(function() {
+				$("#moreContent").load('pages/ecologycon.html')
+				$(".selectType li a").click(function() {
+					var flag = true;
+					if (navigator.userAgent.indexOf("MSIE") > 0) {
+						if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {
+							flag = false;
+						}
+						if (navigator.userAgent.indexOf("MSIE 7.0") > 0) {
+							flag = false;
+						}
+						if (navigator.userAgent.indexOf("MSIE 8.0") > 0) {
+							var vtext = $(this).text().substr(0, 2)
+						}
+					} else {
+						var vtext = $(this).text().substr(1, 2)
+					}
+					switch (vtext) {
+						case '医保':
+							$("#moreContent").load('pages/ecologycon.html', function() {
+								$(".yb").removeClass('hide').addClass('show').siblings('.yl,.jk,.jb').removeClass('show').addClass('hide')
+								len('.yb')
+							});
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+						case '养老':
+							$("#moreContent").load('pages/ecologycon.html', function() {
+								$(".yl").removeClass('hide').addClass('show').siblings('.yb,.jk,.jb').removeClass('show').addClass('hide')
+								len('.yl')
+							});
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+						case '健康':
+							$("#moreContent").load('pages/ecologycon.html', function() {
+								$(".jk").removeClass('hide').addClass('show').siblings('.yb,.yl,.jb').removeClass('show').addClass('hide')
+								len('.jk')
+							});
+
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+						default:
+							$("#moreContent").load('pages/ecologycon.html', function() {
+								$(".jb").removeClass('hide').addClass('show').siblings('.yb,.yl,.jk').removeClass('show').addClass('hide')
+								len('.jb')
+							});
+
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+					}
+				})
+			});
+
+			function len(claName) {
+				if ($(claName).length > 5) {
+					$(".holder").show()
+				} else {
+					$(".holder").hide()
+				}
+			}
+		</script>
+	</body>
+
+</html>
