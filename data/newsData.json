@@ -1,0 +1,111 @@
+[
+  {
+    "type":"news",
+    "title": "推动医院信息化发展 嘉和美康在路上",
+    "imgSrc":"images/newsImages/newscimg1.jpg",
+    "describe": "为了提升青海省各级医疗卫生机构的信息化建设水平，促进区域健康信息平台建设，推动实施全民健康保障信息化工程...",
+    "url":"news_c.html",
+    "date":"2018-08-14 11:30",
+    "source":"嘉和美康"
+  },
+  {
+    "type":"news",
+    "title": "嘉和美康携全新理念亮相“2018新一代信息技术产业标准化论坛”",
+    "imgSrc":"images/newsImages/newsbimg01.jpg",
+    "describe": "为落实《智慧健康养老产业发展行动计划(2017-2020年)》(工信部联电子〔2017〕25号)，2018年7月30日，在'2018...",
+    "url":"news_b.html",
+    "date":"2018-08-08 11:30",
+    "source":"陶正宇"
+  },
+  {
+    "type":"news",
+    "title": "嘉和美康助力淮安病种分值付费智能监控",
+    "imgSrc":"images/newsImages/newsaimg1.jpg",
+    "describe": "近日，我司成功中标签约淮安市医疗保险数据挖掘分析系统政府采购项目，为淮安市医疗保险实行按病种分组分值付费...",
+    "url":"news_a.html",
+    "date":"2018-08-06 16:30",
+    "source":"方凌"
+  },
+  {
+    "type":"news",
+    "title": "嘉和美康助力国寿嘉园，升级健康养老服务",
+    "imgSrc":"images/newsImages/news9img1.jpg",
+    "describe": "近期，北京嘉和美康与国寿嘉园正式签约合作，为其建设健康养老运营管理平台。",
+    "url":"news_nine.html",
+    "date":" 2018-08-01 16:30",
+    "source":"陶正宇"
+  },
+ {
+    "type":"news",
+    "title": "嘉和美康重要客户北医三院荣获亚洲医院管理—科技创新最佳实践项目卓越奖",
+    "imgSrc":"images/newsImages/news8img01.jpg",
+    "describe": "7月18日，医院管理亚洲峰会（HMA）首次在中国无锡举办。HMA在亚洲医疗界备受关注，是亚太地区医院管理领域最有影响力...",
+    "url":"news_eight.html",
+    "date":"2018-07-27 16:30",
+    "source":"嘉和医保医养服务"
+  },
+   {
+    "type":"news",
+    "title": "嘉和医保及医养产品亮相2018 CHIMA大会",
+    "imgSrc":"images/newsImages/news7img01.jpg",
+    "describe": "2018年7月12日—14日，“中国医院协会信息网络大会暨中外医疗信息网络技术和产品展览会暨中外医疗信息网络技术...",
+    "url":"news_seven.html",
+    "date":"2018-07-23 16:30",
+    "source":"丁利"
+  },
+   {
+    "type":"news",
+    "title": "医疗云时代 我们在路上 嘉和美康2018CHIMA大会绽放异彩",
+    "imgSrc":"images/newsImages/news1img01.jpg",
+    "describe": "2018年7月12日，在贵州省贵阳国际生态会议中心召开了第22届学术年会“中国医院协会信息网络大会暨中外医疗信息网络技术...",
+    "url":"news_first.html",
+    "date":"2018-07-16 16:30",
+    "source":"嘉和美康"
+  },
+  {
+    "type":"news",
+    "title": "时刻走在技术前沿：嘉和美康通过2018 FHIR Connectation测试",
+    "imgSrc":"images/newsImages/news2img01.jpg",
+    "describe": "2018年7月12日，中国技术创业协会医疗卫生信息互联互通技术联盟举办了2018 FHIR...",
+    "url":"news_second.html",
+    "date":"2018-07-13 16:30",
+    "source":"嘉和美康"
+  },
+  {
+    "type":"news",
+    "title": "智能数据共享 赋能医疗健康 第22届软博会嘉和美康亮点十足",
+    "imgSrc":"images/newsImages/news3img01.jpg",
+    "describe": "2018年6月29日，以“新时代新理念新软件”为主题的2018年第二十二届中国国际软件博览会在北京展览馆隆重召开...",
+    "url":"news_third.html",
+    "date":"2018-07-02 16:30",
+    "source":"嘉和美康"
+  },
+  {
+    "type":"news",
+    "title": "嘉和美康精彩亮相中国卫生信息技术交流大会",
+    "imgSrc":"images/newsImages/news4img01.jpg",
+    "describe": "5月16日至18日，第13届“中国卫生信息技术/健康医疗大数据应用交流大会”在山东济南国际会展中心隆重召开。嘉和美康以...",
+    "url":"news_four.html",
+    "date":"2018-05-31 16:30",
+    "source":"冯超、郭超"
+  },
+  {
+    "type":"news",
+    "title": "嘉和美康荣获“2017年度广东省医院信息化建设最具竞争力十佳企业”",
+    "imgSrc":"images/newsImages/news5img01.jpg",
+    "describe": "4月12-14日，2018华南医院信息网络大会在广州市白云国际会议中心隆重举行，北京嘉和美康信息技术有限公司...",
+    "url":"news_five.html",
+    "date":"2018-04-20 16:30",
+    "source":"聂璐"
+  }, 
+  {
+    "type":"news",
+    "title": "嘉和信息CMMI5评估圆满完成",
+    "imgSrc":"images/newsImages/news6img01.jpg",
+    "describe": "信息公司于2018年3月18日至24日进行了为期一周的CMMI5评估，并取得了CMMI5高成熟度模型证书，这是公司自2010年首次通过CMMI3评估后，软件工程和质量过程改进的又一个里程碑...",
+    "url":"news_six.html",
+    "date":"2018-04-20 16:30",
+    "source":"王志红"
+  }
+]
+

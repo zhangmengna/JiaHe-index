@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Keywords" content="嘉美在线,嘉美,嘉美在线科技有限公司,养老,居家照料,居家照顾,社区,居家">
+    <meta name="Description" content="北京嘉美在线科技有限公司官方网站">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <link type="image/x-icon" href="favicon.ico" rel="icon"/>
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon"/>
+    <link type="image/x-icon" href="favicon.ico" rel="bookmark"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link class="src" rel="stylesheet" href="css/styles.css"/>
+   <!-- <link rel="stylesheet" href="css/about.css">-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modernizr.min.js"></script>
+    <title>北京嘉美在线科技有限公司</title>
+    <!--<script type="text/javascript">
+      $(function () {
+        $texts = $('.pics .pic .text')
+        $texts.hover(function () {
+          var $img = $(this).prev('.img')
+          $('<span class="desc"></span>').appendTo($img)
+          var text = $(this)[0].innerHTML
+          $('.desc').html(text)
+          var $desc = $img.find('.desc')
+          $desc.show()
+        },function () {
+          $('.img>.desc').remove()
+        })
+      })
+    </script>-->
+</head>
+<body>
+<div class="aboutBanner"></div>
+<div class="container mt-120">
+    <div class="about">
+        <div class="conText">
+            <p class="conBigTitle">关于我们</p>
+        </div>
+
+        <div class="aboutCon">
+            <div class="conRight">
+                <div class="conRightCon">
+                    <p class="conMedTitle mt20">【企业简介】</p>
+                    <p class="textIn mt20">北京嘉和美康信息技术有限公司成立于2005年，注册资金2.6亿元人民币，是一家专业从事医疗卫生信息管理软件研发、生产、销售及服务的高新技术企业。公司现有员工1000多名，业务范围延伸全国20多个省市自治区，拥有300多项自主知识产权的软件产品和30多件软件专利，是全国少数已通过软件能力成熟度模型集成5级（CMMI-5）认证的医疗软件企业之一，参与《电子病历系统应用水平分级评价方法和标准》和国家卫计委电子病历系统相关的规范与标准的制定。</p>
+                    <p class="textIn mt20">区域产品与技术中心2014年正式投入运行，是北京嘉和美康信息技术有限公司专业负责区域业务的部门，团队核心管理和研发人员均为相关领域资深人士，包括养老、医保、卫生健康领域的业务专家和移动互联、云技术、大数据等IT领域的技术专家。
+                    </p>
+                    <p class="textIn mt10">嘉和美康区域产品与技术中心致力于提供构建大健康产业链下的区域卫生与人群健康管理、医养结合养老和医保合理支付等方向的规划咨询、解决方案和信息化服务，是国内率先探索病种支付制度下医保医疗服务智能监控、长期照护险综合管理以及医养结合养老服务信息化的实践者，是卫生综合管理与监控、健康老龄化、医保合理支付综合解决方案的供应商。
+                    </p>
+                    <!--新增内容-->
+                    <p class="textIn mt10">嘉和美康遵从“纲要”第二十四章“建设健康信息化服务体系”的指导，从区卫与人群健康、医养结合养老及医疗保障服务等与民生紧密相关的方向为健康城市的建设提供信息化服务，相关系统为“纲要”如下内容提供信息化支撑：</p>
+                    <p class='textCenter mt10 textIn0'><img src='images/aboutUs.png' style="width:70%;margin:10px auto;"/></p>
+
+                    <p class='contain'>
+                        <span class="title3">非药物干预系统：</span>
+                        <span>通过宣教、咨询、评估、干预，全面支撑“纲要”第二篇“普及健康生活”信息化需求，即第四章“加强健康教育”、第五章“塑造自主自律的健康行为”、第六章第三节　加强体医融合和非医疗健康干预。</span>
+                    </p>
+                    <p class='contain'>
+                        <span class="title3">卫生综合监管平台：</span>
+                        <span>依托人口健康信息平台，通过大数据分析，实现重大疾病防控、防治，提升医疗服务质量，支撑“纲要”第七章“强化覆盖全面的公共卫生服务”、第八章“提供优质高效的医疗服务”信息化需求，贯彻落实医改六项重点工作之一的“建立卫生综合监控机制”。</span>
+                    </p>
+                    <p class='contain'>
+                        <span class="title3">医养结合养老管理系统：</span>
+                        <span>通过院前健康管理、院中大病诊疗和院后康复，实现疾病全程管理服务，支撑“纲要”第十章第二节“促进健康老龄化”信息化需求。</span>
+                    </p>
+                    <p class='contain'>
+                        <span class="title3">长期护理险综合管理平台：</span>
+                        <span>提供经办、服务和监管统一平台，保障护理险业务顺利开展，支撑“纲要”第十一章第二节“积极发展商业健康保险” 信息化需求。</span>
+                    </p>
+                    <p class='contain'>
+                        <span class="title3">医疗服务监控及合规管理：</span>
+                        <span>通过医疗服务监控二代系统，实现按病种付费为主的多元复合式医保支付方式，支撑“纲要”第十一章第二节“健全医保管理服务体系” 信息化需求。医保合规管理系统为医院自身的自我管理提供支撑，降低医保“拒付”风险，保护医院利益。</span>
+                    </p>
+
+                </div>
+                <!--证书-->
+                <!--<div class="aboutCon">
+                    <h1 class="conMedTitle mb20">【资质证书】</h1>
+                    <table border="0" class="table">
+                        <tr>
+                            <td align="center"><img alt="" width="130" src="images/img1.jpg"></td>
+                            <td align="center"><img alt="" width="130" src="images/img2.jpg"></td>
+                            <td align="center"><img alt="" width="130"  src="images/img2.jpg"></td>
+                            <td align="center"><img alt="" width="130" src="images/img4.jpg"></td>
+                            <td align="center"><img alt="" width="130" src="images/img5.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">企业信用等级：AAA</td>
+                            <td align="center">高新技术产业</td>
+                            <td align="center">CMMI5认证</td>
+                            <td align="center">IS0 27001信息安全管理体系认证体系证书</td>
+                            <td align="center">2010年医疗信息化行业用户推荐品牌</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><img alt="" width="130" height="95" src="images/img6.jpg"></td>
+                            <td align="center"><img alt="" width="130" height="95" src="images/img7.jpg"></td>
+                            <td align="center"><img alt="" width="130" height="95" src="images/img8.jpg"></td>
+                            <td align="center"><img alt="" width="130" height="95" src="images/img9.jpg"></td>
+                            <td align="center"><img alt="" width="130" height="95" src="images/img1095.jpg"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">2011年北京市科学技术奖（电子病历平台及临床信息系统）</td>
+                            <td align="center">2013年 国家火炬计划重点高新技术企业</td>
+                            <td align="center">2013年海淀智慧城市产业联盟会员单位</td>
+                            <td align="center">2014年 计算机信息系统集成企业资质（二级）</td>
+                            <td align="center">2017年 HL7中国医疗卫生信息互联网互通技术联盟测试证书</td>
+                        </tr>
+                    </table>
+                </div>-->
+               <!-- <div class="conRightCon">
+                    <h1 class="conMedTitle mb20">【资质证书】</h1>
+                    <div class="pics">
+                        <span class="pic">
+                            <p class="img img1">
+                                <span class="desc">企业信用等级：AAA</span>
+                            </p>
+                            <p class="text">企业信用等级：AAA</p>
+                        </span>
+                        <span class="pic">
+                            <div class="img img2">
+                            </div>
+                            <p class="text">高新技术企业</p>
+                        </span>
+                        <span class="pic">
+                            <p class="img img3"></p>
+                            <p class="text">CMMI5认证</p>
+                        </span>
+                        <span class="pic">
+                            <p class="img img4"></p>
+                            <p class="text">IS0 27001 信息安全管理体系认证体系证书</p>
+                        </span>
+                        <span class="pic">
+                            <p class="img img5"></p>
+                            <p class="text">2010年医疗信息化行业用户推荐品牌</p>
+                        </span>
+                        <span class="pic">
+                            <div class="img img6"></div>
+                            <p class="text">2011年北京市科学技术奖（电子病历平台及临床信息系统)</p>
+                        </span>
+                        <span class="pic">
+                            <p class="img img7"></p>
+                            <p class="text">2013年 国家火炬计划重点高新技术企业</p>
+                        </span>
+                        <span class="pic">
+                            <p class="img img8"></p>
+                            <p class="text">2013年海淀智慧城市产业联盟会员单位</p>
+                        </span>
+                        <span class="pic">
+                            <p class="img img9"></p>
+                            <p class="text">2014年 计算机信息系统集成企业资质（二级)</p>
+                        </span>
+                        <span class="pic">
+                            <p class="img img10"></p>
+                            <p class="text">2017年 HL7中国医疗卫生信息互联网互通技术联盟测试证书</p>
+                        </span>
+                    </div>
+                </div>-->
+                <div class="conRightCon">
+                    <h1 class="conMedTitle mb20">【价值观】</h1>
+
+                    <p class='textIn'><span class='redText f18'>专业</span>　<span class='font-italic'>因为专业所以信赖</span></p>
+
+                    <p class="textIn">
+                        以精深的知识技能和永不厌倦的进取精神，专业从事养老、医保、卫生行业产品的研发和服务，专注于发现和解决客户需求，专注于提升服务客户的能力。
+                    </p>
+
+                    <p class='textIn'><span class='redText f18'>创新</span>　<span class='font-italic'>产品、服务和管理</span></p>
+
+                    <p class="textIn">
+                        创新是公司发展的动力源泉，创新的本质是推陈出新，打破旧的思维定势，旧的清规戒律，发现或创造新的社会价值和经济价值。
+                    </p>
+
+                    <p class='textIn'><span class='redText f18'>责任</span>　<span class='font-italic'>责任成就价值</span></p>
+
+                    <p class="textIn">
+                        对客户的责任，就是以高效实用的产品和专业的服务实现客户所托。
+                    </p>
+
+                    <p class="textIn">
+                        对团队的责任，注重平衡与员工共同分享企业发展的成果，并积极关注员工的职业发展。
+                        对自我的责任，嘉和人崇尚自我负责的价值观念，信任、授权、自我约束、自我激励构成了嘉和人（团队）自我发展独特的驱动力。
+                    </p>
+                </div>
+
+                <div class="conRightCon aboutRight">
+                    <h1 class="conMedTitle mb20">【联系方式】</h1>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                            <div class='jiahePic'><img src="images/map.jpg"/></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="link">
+                                <p class=""><label>地址：</label><span class="address">北京市海淀区上地信息产业基地开拓路7号先锋大厦1段</span>
+                                </p>
+
+                                <p class=""><label>邮箱：</label><span>jiaheyanglao@bjgoodwill.com</span>
+                                </p>
+
+                                <p class=""><label>座机：</label><span style="white-space:nowrap">010-82781919</span></p>
+
+                                <p class=""><label>传真：</label><span style="white-space:nowrap">010-82781910</span></p>
+
+                                <p class=""><label>QQ：</label><span>2963506689</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conRightCon aboutRight">
+                    <h1 class="conMedTitle mb20">【集团公司】</h1>
+
+                    <div class="row relativeCom">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+                            <a href='http://www.bjgoodwill.com/' target='_blank'>嘉和美康科技</a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center xs-mt10">
+                            <a href="http://www.goodwillcis.com/" target='_blank' class='ml60'>嘉和美康信息</a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center xs-mt10 sm-mt10">
+                            <a href="http://www.goodwillmed.com/" target='_blank' class='ml60'>嘉和美康设备</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--aboutCon-->
+    </div>
+</div>
+<!--content-->
+</body>
+<script>
+    /*$(function(){*/
+    $("#map").load('pages/map.html');
+    /*})*/
+</script>
+</html>

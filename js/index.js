@@ -34,6 +34,7 @@ $(function() {
 		$(".icon2 img",this).attr('src', 'images/button_protects_medical_insurance_default.png')
 		$(".icon3 img",this).attr('src', 'images/button_protects_population_health_default.png')
 	});
+
 	/*$(".solutionCon .con").hover(function() {
 		$(this).find('.hoverAnimate').css('opacity', '0.9')
 		$(this).find('.hoverAnimateCon').delay(2000).css('opacity', '1')

@@ -15,106 +15,166 @@
 		<link type="image/x-icon" href="favicon.ico" rel="bookmark" />
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script src="js/jquery-1.12.1.min.js"></script>
+		<style>
+			.tabs{
+				height:40px;
+				background: #9ECB43;
+
+			}
+			.tabs span{
+				line-height:40px;
+				font-size:2.6em ;
+				color: #ffffff;
+				text-align: center;
+				text-decoration:none;
+			}
+			.tabs span:hover{
+				cursor:pointer;
+			}
+			span.act{
+				background: rgba(0,0,0,0.2);
+			}
+		</style>
 	</head>
 
 	<body>
 		<div class="industryBanner"></div>
 		<div class="container ecologyMain mt-120">
-			
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-					<div id="moreContent">
+					<div class="tabs">
+						<span  class="col-lg-6 col-md-6 col-xs-6 act">行业资讯</span>
+						<span  class="col-lg-6 col-md-6 col-xs-6">公司动态</span>
+					</div>
+					<div id="moreContent" class="tab-content">
+						<!--行业资讯--><!--公司动态-->
+             <div id="itemContainer" class="partCon">
 
+						 </div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-xs-12 text-center">
+							<div class="holder"></div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hideCon">
 					<h2 class='keyTitle'> 行业类别</h2>
 					<ul class="selectType">
-						<li><a href="javascript:"> 医保智能监控</a></li>
-						<li><a href="javascript:"> 养老服务</a></li>
-						<li><a href="javascript:"> 健康管理</a></li>
-						<li><a href="javascript:"> 疾病控制</a></li>
+						<li><a href="javascript:;"> 医保智能监控</a></li>
+						<li><a href="javascript:;"> 养老服务</a></li>
+						<li><a href="javascript:;"> 健康管理</a></li>
+						<li><a href="javascript:;"> 疾病控制</a></li>
 					</ul>
 					<div class="newsInfo">
 						<img src="images/newInfo.jpg" style="width:100%;"/>
-
 					</div>
 					<h2 class="keyTitle" > 最新动态</h2>
-					<div class="moreInfo">
-						<p><a href="javascript:location.href='model.html?id=new_first.html'">陕西省城乡居民医保将全面实行一体化制度</a></p>
-						<p><a href="javascript:location.href='model.html?id=new_second.html'">哈市生育保险将网上“一站式”办结</a></p>
-						<p><a href="javascript:location.href='model.html?id=new_third.html'">社会办医“非禁即可” 按规纳入医保定点</a></p>
-						<p><a href="javascript:location.href='model.html?id=new_four.html'">李克强：家政服务和社会养老都是经济“新动能”</a></p>
-						<p><a href="javascript:location.href='model.html?id=new_five.html'">全国医疗保险工作座谈会召开</a></p>
+					<div class="moreInfo" id="moreInfo">
+
 					</div>
 				</div>
 			</div>
 
 		</div>
-		
+		<script src='plugins/jPages.js'></script>
 		<script src="js/sonPage.js"></script>
 		<title>北京嘉和美康在线科技有限公司</title>
 		<script>
 			$(function() {
-				$("#moreContent").load('pages/ecologycon.html')
-				$(".selectType li a").click(function() {
-					var flag = true;
-					if (navigator.userAgent.indexOf("MSIE") > 0) {
-						if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {
-							flag = false;
-						}
-						if (navigator.userAgent.indexOf("MSIE 7.0") > 0) {
-							flag = false;
-						}
-						if (navigator.userAgent.indexOf("MSIE 8.0") > 0) {
-							var vtext = $(this).text().substr(0, 2)
-						}
-					} else {
-						var vtext = $(this).text().substr(1, 2)
-					}
-					switch (vtext) {
-						case '医保':
-							$("#moreContent").load('pages/ecologycon.html', function() {
-								$(".yb").removeClass('hide').addClass('show').siblings('.yl,.jk,.jb').removeClass('show').addClass('hide')
-								len('.yb')
-							});
-							document.documentElement.scrollTop = document.body.scrollTop = 0;
-							break;
-						case '养老':
-							$("#moreContent").load('pages/ecologycon.html', function() {
-								$(".yl").removeClass('hide').addClass('show').siblings('.yb,.jk,.jb').removeClass('show').addClass('hide')
-								len('.yl')
-							});
-							document.documentElement.scrollTop = document.body.scrollTop = 0;
-							break;
-						case '健康':
-							$("#moreContent").load('pages/ecologycon.html', function() {
-								$(".jk").removeClass('hide').addClass('show').siblings('.yb,.yl,.jb').removeClass('show').addClass('hide')
-								len('.jk')
-							});
-
-							document.documentElement.scrollTop = document.body.scrollTop = 0;
-							break;
-						default:
-							$("#moreContent").load('pages/ecologycon.html', function() {
-								$(".jb").removeClass('hide').addClass('show').siblings('.yb,.yl,.jk').removeClass('show').addClass('hide')
-								len('.jb')
-							});
-
-							document.documentElement.scrollTop = document.body.scrollTop = 0;
-							break;
-					}
-				})
-			});
-
-			function len(claName) {
-				if ($(claName).length > 5) {
-					$(".holder").show()
-				} else {
-					$(".holder").hide()
+        showEcology();
+        var $tabs = $(".tabs span")
+        $tabs.click(function () {
+          var index = $(this).index();
+          $(this).addClass("act").siblings().removeClass("act");
+          if(index == 1){
+            sessionStorage.setItem("path", "1");
+            showNews();
+            $(".selectType li a").removeClass('redText').css('background', 'url(images/key.png) no-repeat 10px')
+          }else {
+            sessionStorage.setItem("path", "0");
+            showEcology()
+          }
+        });
+			  if(sessionStorage.getItem("path") == '1'){
+          $tabs[1].click();
 				}
-			}
+        function showEcology(t) {
+          $.get("./data/ecologyData.json", function (data,status) {
+            if(!t){
+              article(data);
+              showPage();
+						}else{
+              var filterData = data.filter(function (item, index) {
+                  return item.type === t;
+              })
+              article(filterData);
+              showPage();
+						}
+
+          })
+        }
+        function showNews() {
+          $.get("./data/newsData.json", function (data,status) {
+            article(data);
+            showPage();
+          })
+        }
+        /*渲染新闻*/
+				function article(arr) {
+          $("#itemContainer").empty();
+				  for (var i = 0; i< arr.length; i++){
+				    var href = "model.html?id="+ arr[i].url;
+				    var $divPart = $("<div class='row part'>" +
+							"<div class='col-lg-5 col-md-5 col-xs-5 hideCon hidePic'>" +
+							"<img src='"+arr[i].imgSrc+"'/></div>" +
+							"<div class='col-lg-7 col-xs-12 col-sm-12 col-md-7'>" +
+							"<h1 class='ecoTitle'>" +
+							"<a href="+ href +">"+arr[i].title +"</a></h1>" +
+							"<p class='ecoText'>"+ arr[i].describe +"</p>" +
+							"</div></div>");
+            $divPart.appendTo($("#itemContainer"));
+				  }
+				}
+        /*页码显示*/
+				function showPage() {
+          var num = $("#itemContainer .part").length;
+					if(num >=5){
+            $("div.holder").jPages({
+              containerID: "itemContainer" ,
+              previous: "",
+              next: "",
+              perPage: 4,
+              keyBrowse: false,
+              scrollBrowse: false
+            });
+					}else{
+            $("div.holder").jPages("destroy");
+					}
+        }
+       /*资讯类型*/
+				$(".selectType li").click(function() {
+          $tabs[0].click();
+          var type = ["yb", "yl", "jk", "jb"];
+          var index = $(this).index();
+          console.log(index);
+          showEcology(type[index]);
+          document.documentElement.scrollTop = document.body.scrollTop = 0;
+        })
+
+				/*recent news*/
+        $.get("./data/newsData.json", function (data,status) {
+					var newsArr = data.slice(0, 6);
+          for (var i = 0; i < newsArr.length; i++) {
+            var href = "model.html?id="+ newsArr[i].url;
+            var $recentNews = $("<p><a href="+ href +">"+ newsArr[i].title +"</a></p>");
+            $recentNews.appendTo($("#moreInfo"));
+          }
+        })
+
+			})
 		</script>
 	</body>
 

@@ -51,7 +51,7 @@ h1 {
 .about .row {
 	padding: 10px 0 0 0;
 }
-
+.news img,
 .yl img,
 .jb img,
 .jk img,
@@ -70,7 +70,7 @@ h1 {
 .yanglaoCon h1,
 .ecology h1 {
 	color: #EC3027;
-	height: 36px;
+	/*height: 36px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: left;
@@ -81,7 +81,15 @@ h1 {
 
 .partnerPageCon {
 	margin-bottom: 50px;
-	margin-top: 40px;
+	margin-top: 30px;
+}
+.partnerPageCon>.row{
+	margin: 10px auto;
+}
+@media (max-width:768px){
+	.partnerPageCon>.row{
+		margin: 0;
+	}
 }
 .aboutCon .map {
 	background: url(../images/map.jpg) no-repeat;
@@ -95,10 +103,18 @@ h1 {
 	font-size: 2.6em;
 	text-align: left;
 }
-
+.conRight .contain{
+	margin-top: 20px;
+}
+.conRight .title3{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+	color: #9ecb43 ;
+}
 .conRight h2 {
 	margin-bottom: 10px;
-	/*margin-top: 20px;*/
+	margin-top: 20px;
 	color: #333;
 }
 
@@ -152,7 +168,7 @@ ul.selectType li a {
 	width: 200px;
 	color: #333;
 	font-size: 2.6em;
-	padding-left: 10px;
+/*	padding-left: 10px;*/
 }
 
 .ml40 {
@@ -165,39 +181,39 @@ ul.selectType li a {
 }
 
 .solutionBanner {
-	background: url(../images/smart_payer_image_banner.jpg) no-repeat;
+	background: url(../images/bannertop2.jpg) no-repeat;
 }
 
 .healthBanner {
-	background: url(../images/polulation_health_image_banner.jpg) no-repeat;
+	background: url(../images/bannertop3.jpg) no-repeat;
 }
 
 .ylBanner {
-	background: url(../images/protects_institutional_image_banner.jpg) no-repeat;
+	background: url(../images/bannertop1.jpg) no-repeat;
 }
 
 .sqBanner {
-	background: url(../images/protects_community_image_banner.jpg) no-repeat;
+	background: url(../images/bannertop1.jpg) no-repeat;
 }
 
 .industryBanner {
-	background: url(../images/Industry_ecology_banner.jpg) no-repeat;
+	background: url(../images/hydttop.jpg) no-repeat;
 }
 
-.gxBanner {
+/*.gxBanner {
 	background: url(../images/protects_provide_highschool_banner.jpg) no-repeat;
-}
+}*/
 
 .aboutBanner {
 	background: url(../images/about_us_image_banner.jpg) no-repeat;
 }
 
-.bannerbg {
+/*.bannerbg {
 	background-image: url(../images/pension_cloud_banner.jpg);
 	background-repeat: no-repeat;
 	background-color: #fff;
 	z-index: -1;
-}
+}*/
 
 .partnerBanner {
 	background: url(../images/partner_banner.jpg) no-repeat;
@@ -220,7 +236,28 @@ ul.selectType li a {
 	clear: both;
 	margin-bottom: 10px;
 }
-
+/*产品优势*/
+.conRightCon>.adv{
+	display: inline-block;
+	width:30%;
+	margin: 1%;
+	background: rgba(110,250,250,0.5);
+	border-radius:10%;
+	text-align: center;
+	text-indent: 0;
+}
+.conRightCon>.circle{
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background-color: rgb(0,200,250);
+}
+@media (max-width:768px) {
+	.conRightCon>.adv{
+		width: 80%;
+		margin-left:10%;
+	}
+}
 .project div {
 	float: left;
 	margin-top: 20px;
@@ -273,8 +310,8 @@ ul.selectType li a {
 
 .footerCon {
 	position: relative;
-	margin-top: 0px;
-	bottom: 0px;
+	margin-top: 40px;
+	bottom: 10px;
 	width: 100%;
 }
 
@@ -309,7 +346,7 @@ ul.selectType li a {
 	background-position: 30px 23px;
 }
 
-.ylcontent .prd1 {
+/*.ylcontent .prd1 {
 	background-image: url(../images/jgicon.png);
 	width: 100%;
 	height: 136px;
@@ -319,7 +356,7 @@ ul.selectType li a {
 	background-image: url(../images/sqicon.png);
 	width: 100%;
 	height: 136px;
-}
+}*/
 
 .ylcontent .joinBtn {
 	width: 60px;
@@ -343,27 +380,28 @@ ul.selectType li a {
 	margin-top: 30px;
 }
 
-.ecologyCon {
+.partCon {
 	overflow: hidden;
 }
 
-.ecologyCon h1 {
+.partCon h1 {
 	margin: 0px;
-	font-size: 2em;
+	font-size: 1.8em;
+	line-height: 25px;
 }
 
-.ecologyCon h1.ecoTitle a {
+.partCon h1.ecoTitle a {
 	width: 300px;
 	color: #9ECB43;
 	font-weight: bold;
 	font-size:1.8em;
 }
 
-.ecologyCon h2 {
+.partCon h2 {
 	font-size: 1.4em;
 }
 
-.ecologyCon P input {
+.partCon P input {
 	margin-top: 20px;
 }
 
@@ -373,7 +411,7 @@ ul.selectType li a {
 
 .part {
 	overflow: hidden;
-	margin-bottom: 50px;
+	padding:20px 0;
 }
 
 .part>div {
@@ -390,18 +428,36 @@ ul.selectType li a {
 	text-indent: 2em;
 	margin-top: 10px;
 }
+.ecoImg{
+	text-align: center;
+}
+.ecoImg>img{
+	width:75%;
+	margin-bottom: 10px;
+}
+
+.imgdesc{
+	width:75%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+	margin-top: 6px;
+}
 
 h2.keyTitle {
 	font-size: 2.6em;
 	color: #fff;
-	margin-bottom: 10px;
 	background-color: #9ECB43;
-	height: 30px;
-	line-height: 30px;
+	height: 40px;
+	line-height: 40px;
 	color: #fff;
 	padding-left: 10px;
 }
-
+.moreInfo,.selectType{
+	padding: 10px 0;
+	background-color: #f7f7f7;
+}
 .newsInfo {
 	margin: 30px 0;
 	position: relative;
@@ -410,7 +466,7 @@ h2.keyTitle {
 .moreInfo p {
 	line-height: 36px;
 	font-size: 2.6em;
-	width: 240px;
+	width: 250px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
@@ -471,7 +527,14 @@ h2.keyTitle {
 	line-height: 40px;
 	font-size: 1.4em;
 }
-
+@media (max-width: 992px) {
+	.holder a {
+		margin-left: 12px;
+	}
+	.holder a:first-child{
+		margin-left: 0px;
+	}
+}
 .holder a.jp-previous,
 .holder a.jp-next {
 	position: relative;
@@ -541,7 +604,9 @@ h2.keyTitle {
 .bold {
 	font-weight: bold;
 }
-
+.textRight{
+	text-align: right;
+}
 .pageTwoCon {
 	display: none;
 }
@@ -564,7 +629,7 @@ h2.keyTitle {
 }
 
 .titleImg {
-	background: url(../images/return.png) no-repeat right;
+	/*background: url(../images/return.png) no-repeat right;*/
 	padding-right: 10px;
 	cursor: pointer;
 }
@@ -662,7 +727,11 @@ h2.keyTitle {
 	font-size: 4em !important;
 	font-weight: normal;
 }
-
+.conLitTitle{
+	font-size: 3em;
+	margin-top: 20px;
+	font-weight: 600;
+}
 .padd {
 	padding: 0 20px;
 }
@@ -781,7 +850,7 @@ div.shuline {
 	}
 	.conBigTitle{margin-top:0px;}
 	/*.ecology .conBigTitle{font-size:4em;}*/
-	.link{margin-bottom:20px;}
+	.link{ margin-top:10px; margin-bottom:10px;}
 }
 
 @media (min-width:768px) and (max-width:992px) {
@@ -792,7 +861,7 @@ div.shuline {
 		display: none;
 	}
 	.conBigTitle {
-		font-size: 2em !important;
+		/*font-size: 2em !important;*/
 	}
 	.jiahePic img {
 		width: 100%;
@@ -800,6 +869,9 @@ div.shuline {
 	.link {
 		margin-left: 40px;
 	}
+}
+.article{
+	padding: 10px 30px 30px;
 }
 .yanglaoCon .product_sever{overflow:hidden;margin-top:50px;}
 .yanglaoCon .product_sever:first-child{margin-top:0px;}

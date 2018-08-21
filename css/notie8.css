@@ -2,40 +2,40 @@
 @media (min-width: 1200px) {
 	body{font-size:62.5% !important;}
 	.container {
-		width: 1024px;
-		position: relative;
-		left: 50%;
-		margin-left: -512px;
+		width: 80%;
+		margin: 0 auto;
+		/*position: relative;*/
+		/*left: 50%;*/
+		/*margin-left: -512px;*/
 	}
 }
 
-@media (min-width: 992px) and (max-width:1200px;
-) {
+@media (min-width: 992px) and (max-width:1200px) {
 	.container {
-		width: 970px;
+		width: 100%;
+		margin: 0 auto;
 	}
 }
 
-@media (min-width: 768px) and (max-width:922px;) {
+@media (min-width: 768px) and (max-width:922px) {
 	.container {
-		width: 750px;
+		width: 100%;
 	}
-}
-@media (min-width:769px) and (max-width:992px) {
-	/*html {
-		font-size: 58%;
-	}*/
+	.conRight {
+		padding: 0px 50px !important;
+	}
 }
 
 @media (max-width:500px) {
-	/*html {
-		font-size: 40%;
-	}*/
 	.industryRightCon {
 		margin-left: 20px;
 	}
 	.hoverAnimate {
 		width: 96%;
+	}
+	.conRightCon>.adv{
+		width: 80%;
+		margin:10%;
 	}
 }
 
@@ -51,6 +51,7 @@
 		max-height: 360px;
 		overflow-y: auto;
 	}
+
 }
 
 @media (max-width:768px) {
@@ -138,17 +139,17 @@
 	}
 	.productCon div.con {
 		width: 100%;
-		margin-bottom: 20px;
+		margin-bottom: 35px;
 	}
 	.hoverAnimate {
-		width: 95%;
-		height: 190px;
+		width: 88%;
+		height: 225px;
 		text-align: center;
 	}
 	.hoverAnimateCon a{font-size:3.4em;}
 	.hoverAnimateCon {
-		top: 115px;
-		width: 260;
+		top: 95px;
+		width: 300px;
 		left: 50%;
 		margin-left: -150px;
 	}
@@ -171,7 +172,7 @@
 	}
 	p .moreBtn {
 		position: relative;
-		bottom: 60px;
+		bottom: 45px;
 	}
 	.sectionAboutUs .aboutContent {
 		padding: 0px;
@@ -193,8 +194,8 @@
 	body{overflow-x:hidden !important;}
 	.container{margin:0px;padding:0px;}
 	.hoverAnimate {
-		height: 260px;
-		width:260px;
+		height: 240px;
+		width:250px;
 	}
 	.section4 {
 		height: auto !important;

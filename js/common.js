@@ -1,21 +1,15 @@
 $(function() {
 	//二级菜单
 	if($(window).width()>768){
-	
-	$(".nav>li").hover(function() {
-		$(this).find('.sonNav').stop(true, true).slideDown(300);
-		$(this).children('a').addClass('redText');
-		$(this).children('a').find('span').addClass('slideup');
-	}, function() {
-		$(this).find('.sonNav').stop(true, true).slideUp(300);
-		$(this).children('a').removeClass('redText');
-		$(this).children('a').find('span').removeClass('slideup');
-	});
-	/*$(".sonNav a").hover(function() {
-		$(this).css('border-left', '4px solid #3c96d0')
-	}, function() {
-		$(this).css('border-left', 'none')
-	});*/
+		$(".nav>li").hover(function() {
+			$(this).find('.sonNav').stop().slideDown(300);
+			$(this).children('a').addClass('redText');
+			$(this).children('a').find('span').addClass('slideup');
+		}, function() {
+				$(this).find('.sonNav').stop().slideUp(150);
+				$(this).children('a').removeClass('redText');
+				$(this).children('a').find('span').removeClass('slideup');
+		});
 	} else if($(window).width()<=768){
 		$(".nav>li").hover(function() {
 		$(this).find('.sonNav').stop(true, true).slideDown(300);

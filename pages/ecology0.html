@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Keywords" content="嘉美在线,嘉美,嘉美在线科技有限公司,养老,居家照料,居家照顾,社区,居家">
+		<meta name="Description" content="北京嘉美在线科技有限公司官方网站">
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-control" content="no-cache">
+		<meta http-equiv="Cache" content="no-cache">
+		<link type="image/x-icon" href="favicon.ico" rel="icon" />
+		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+		<link type="image/x-icon" href="favicon.ico" rel="bookmark" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script src="js/jquery-1.12.1.min.js"></script>
+		<style>
+			.tabs{
+				height:40px;
+				background: #9ECB43;
+
+			}
+			.tabs span{
+				line-height:40px;
+				font-size:2.6em ;
+				color: #ffffff;
+				text-align: center;
+			}
+			.tabs span:hover{
+				cursor:pointer;
+			}
+			span.act{
+				background: rgba(0,0,0,0.2);
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="industryBanner"></div>
+		<div class="container ecologyMain mt-120">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+					<div class="tabs">
+						<span id="ecologycon" class="col-lg-6 col-md-6 col-xs-6 act">行业资讯</span>
+						<span id="companyNews" class="col-lg-6 col-md-6 col-xs-6">公司动态</span>
+					</div>
+					<div id="moreContent">
+
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hideCon">
+					<h2 class='keyTitle'> 行业类别</h2>
+					<ul class="selectType">
+						<li><a href="javascript:;"> 医保智能监控</a></li>
+						<li><a href="javascript:;"> 养老服务</a></li>
+						<li><a href="javascript:;"> 健康管理</a></li>
+						<li><a href="javascript:;"> 疾病控制</a></li>
+					</ul>
+					<div class="newsInfo">
+						<img src="images/newInfo.jpg" style="width:100%;"/>
+					</div>
+					<h2 class="keyTitle" > 最新动态</h2>
+					<div class="moreInfo">
+						<!--2018-7-27-->
+						<p><a href="javascript:location.href='model.html?id=news_a.html'">嘉和美康重要客户北医三院荣获亚洲医院管理—科技创新最佳实践项目卓越奖</a></p>
+						<!--2018-07-23-->
+						<p><a href="javascript:location.href='model.html?id=new_seven.html'">嘉和医保及医养产品亮相2018 CHIMA大会</a></p>
+						<!--2018-07-16-->
+						<p><a href="javascript:location.href='model.html?id=new_first.html'">医疗云时代 我们在路上 嘉和美康2018CHIMA大会绽放异彩</a></p>
+            <!--2018-07-13-->
+						<p><a href="javascript:location.href='model.html?id=new_second.html'">时刻走在技术前沿：嘉和美康通过2018 FHIR Connectation测试</a></p>
+            <!--2018-07-02-->
+						<p><a href="javascript:location.href='model.html?id=new_third.html'">智能数据共享 赋能医疗健康 第22届软博会嘉和美康亮点十足</a></p>
+            <!--2018-05-31-->
+						<p><a href="javascript:location.href='model.html?id=new_four.html'">嘉和美康精彩亮相中国卫生信息技术交流大会</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<script src="js/sonPage.js"></script>
+		<title>北京嘉和美康在线科技有限公司</title>
+		<script>
+			$(function() {
+
+			  var $spans = $(".tabs span");
+				$("#moreContent").load('./pages/ecologycon.html?v='+Math.random()*100);
+
+        $spans.click(function () {
+          var index = $(this).index();
+          $(this).addClass("act").siblings().removeClass("act");
+
+          if(index == 1){
+            $(".selectType li a").removeClass('redText').css('background', 'url(images/key.png) no-repeat 10px')
+            $("#moreContent").load('./pages/companyNews.html?v='+Math.random()*100);
+            window.name = "companyNews";
+					}else {
+            $("#moreContent").load('./pages/ecologycon.html?v='+Math.random()*100);
+            window.name = "ecologycon";
+					}
+        });
+
+				$(".selectType li a").click(function() {
+
+					var flag = true;
+					if (navigator.userAgent.indexOf("MSIE") > 0) {
+						if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {
+							flag = false;
+						}
+						if (navigator.userAgent.indexOf("MSIE 7.0") > 0) {
+							flag = false;
+						}
+						if (navigator.userAgent.indexOf("MSIE 8.0") > 0) {
+							var vtext = $(this).text().substr(0, 2)
+						}
+					} else {
+						var vtext = $(this).text().substr(1, 2)
+					}
+          $(".row.part").removeClass("hide");
+					switch (vtext) {
+						case '医保':
+							$("#moreContent").load('pages/ecologycon.html?'+Math.random()*100, function() {
+								$('.yl,.jk,.jb').removeClass('show').addClass('hide')
+								len('.yb')
+							});
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+						case '养老':
+							$("#moreContent").load('pages/ecologycon.html?'+Math.random()*100, function() {
+								$('.yb,.jk,.jb').removeClass('show').addClass('hide')
+								len('.yl')
+							});
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+						case '健康':
+							$("#moreContent").load('pages/ecologycon.html?'+Math.round(Math.random()*100), function() {
+								$('.yb,.yl,.jb').removeClass('show').addClass('hide')
+								len('.jk')
+							});
+
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+						default:
+							$("#moreContent").load('pages/ecologycon.html?'+Math.random()*100, function() {
+								$('.yb,.yl,.jk').removeClass('show').addClass('hide')
+								len('.jb')
+							});
+
+							document.documentElement.scrollTop = document.body.scrollTop = 0;
+							break;
+					}
+				});
+
+        if(window.name == "companyNews"){
+          $("#"+window.name).click();
+        }
+			});
+
+			function len(claName) {
+				if ($(claName).length >= 5) {
+          $("div.holder").jPages("destroy");
+          $("div.holder").jPages({
+            containerID: "itemContainer",
+            previous: "",
+            next: "",
+            perPage: 4,
+            keyBrowse: false,
+            scrollBrowse: false
+          });
+					$(".holder").show();
+				} else {
+          $(claName).show();
+					$(".holder").hide()
+				}
+			}
+		</script>
+	</body>
+
+</html>

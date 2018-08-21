@@ -192,7 +192,7 @@ hr {
 .table tbody {
   background-color: white; }
   .table tbody tr td {
-    font-size: 14px;
+   /* font-size: 14px;*/
     border-top: 0;
     vertical-align: middle; }
 .table tfoot > tr > td {

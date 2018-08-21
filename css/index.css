@@ -393,8 +393,8 @@ body {
 .hoverAnimateCon p {
 	margin-top: 15px;
 	width: 240px;
-	text-align: text;
-	margin-left: 30px;
+	text-align: center;
+	/*margin-left: 30px;*/
 }
 
 .hoverAnimateCon a {
@@ -653,5 +653,3 @@ p .moreBtn:hover {
 	margin-left: 0px !important;
 	margin-right: 0px !important;
 }
-
-

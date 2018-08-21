@@ -1,460 +1,490 @@
 <!doctype html>
 <html>
-	<head>
-		<title>嘉和美康区域产品与技术中心网站</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<head>
+  <title>嘉和美康区域产品与技术中心网站</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
 
-		<meta name="Keywords" content="北京嘉和科技有限公司,健康城市,嘉和,区域产品与技术中心,养老,居家照料,居家照顾,社区,居家,医保,人群健康">
-		<meta name="Description" content="北京嘉和科技有限公司-区域产品与技术中心网站">
-		<meta http-equiv="Expires" content="0">
-		<meta http-equiv="Pragma" content="no-cache">
-		<meta http-equiv="Cache-control" content="no-cache">
-		<meta http-equiv="Cache" content="no-cache">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link type="image/x-icon" href="favicon.ico" rel="icon" />
-		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
-		<link type="image/x-icon" href="favicon.ico" rel="bookmark" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" href="plugins/fullpage/jquery.fullPage.css" />
-		<link rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" href="plugins/animate.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/index.20170304.css" />
-		<link rel="stylesheet" type="text/css" href="" id="link"/>
-		<script src="js/jquery-1.12.1.min.js"></script>
-		<script type="text/javascript" src='js/respond.min.js'></script>
-		<script>
-			$(function(){
-				var nav = navigator.userAgent;
-				var isIE6 = /msie 6/i.test(nav);
-                var isIE7 = /msie 7/i.test(nav);
-                var isIE8 = /msie 8/i.test(nav);
-                switch(true){
-                    case isIE6:$("#link").attr("href","css/ie8.css");break;
-                    case isIE7:$("#link").attr("href","css/ie8.css");break;
-                    case isIE8:$("#link").attr("href","css/ie8.css");
+  <meta name="Keywords" content="北京嘉和科技有限公司,健康城市,嘉和,区域产品与技术中心,养老,居家照料,居家照顾,社区,居家,医保,人群健康">
+  <meta name="Description" content="北京嘉和科技有限公司-区域产品与技术中心网站">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Cache" content="no-cache">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link type="image/x-icon" href="favicon.ico" rel="icon"/>
+  <link type="image/x-icon" href="favicon.ico" rel="shortcut icon"/>
+  <link type="image/x-icon" href="favicon.ico" rel="bookmark"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" media="screen and (min-width:1024px)"
+        href="plugins/fullpage/jquery.fullPage.css"/>
+  <link rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" href="plugins/animate.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="css/index.20170304.css"/>
+  <link rel="stylesheet" type="text/css" href="" id="link"/>
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <script src="js/jquery-1.12.1.min.js"></script>
+  <script type="text/javascript" src='js/respond.min.js'></script>
+  <script>
+    $(function () {
+      var nav = navigator.userAgent;
+      var isIE6 = /msie 6/i.test(nav);
+      var isIE7 = /msie 7/i.test(nav);
+      var isIE8 = /msie 8/i.test(nav);
+      switch (true) {
+        case isIE6:
+          $("#link").attr("href", "css/ie8.css");
+          break;
+        case isIE7:
+          $("#link").attr("href", "css/ie8.css");
+          break;
+        case isIE8:
+          $("#link").attr("href", "css/ie8.css");
+          break;
+        default:
+          $("#link").attr("href", "css/notie8.css")
+          break;
+      }
+    });
+  </script>
 
-                        break;
-                    default:
-                        $("#link").attr("href","css/notie8.css")
-                        break;
-                }
-			});
-		</script>
+</head>
+<body>
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="logo navbar-brand" onclick="logo('index.html&v201804')">北京嘉和美康信息技术有限公司</span>
+    </div>
+    <div class="navbar-collapse collapse navbar-right hidden-sm" role='navigation'>
+      <ul class="nav navbar-nav">
+        <li class='navLi'>
+          <!--<a href="javascript:logo('index.html&v201701')">首页</a>-->
+          <a href="javascript:;">首页</a>
+        </li>
+        <li class='navLi'>
+          <a href="#">产品
+            <!--<span></span>--></a>
+          <div class='sonNav'>
+            <div class="productMenu">
+              <ul class="ml30">
+                <li class='grandsonTitle'>医养结合养老</li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=jgyanglao.html'">健康养老平台-机构版</a>
+                </li>
+                <li class='underLine'></li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=sqyanglao.html'">健康养老平台-社区居家版</a>
+                </li>
+                <li class='underLine'></li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=mixmedical.html'">医养结合养老管理系统</a>
+                </li>
+                <li class='underLine'></li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=longservice.html'">长期护理险综合管理平台</a>
+                </li>
+                <li class='underLine'></li>
+              </ul>
+              <ul>
+                <li class='grandsonTitle'>医保合理支付</li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=sercontrol.html'">医保医疗服务监控系统</a>
+                </li>
+                <li class='underLine'></li>
+                <!--<li>
+                  <a href="javascript:location.href='model.html?id=jkmedical.html&v=201701'">医保智能监控信息系统</a>
+                </li>
+                <li class='underLine'></li>-->
+                <li>
+                  <a href="javascript:location.href='model.html?id=ybnormal.html'">医保合规管理信息系统</a>
+                </li>
+                <li class='underLine'></li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=ocrmedical.html'">医保异地就医单据识别系统</a>
+                </li>
+                <li class='underLine'></li>
+              </ul>
+              <ul>
+                <li class='grandsonTitle'>区域卫生与人群健康</li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=jchealth.html'">基层医疗卫生信息系统</a>
+                </li>
+                <li class='underLine'></li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=qyhealth.html'">区域卫生信息平台</a>
+                </li>
+                <li class='underLine'></li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=inteplatform.html'">卫生综合监管平台</a>
+                </li>
+                <li class='underLine'></li>
+                <li>
+                  <a href="javascript:location.href='model.html?id=nodrug.html'">非药物干预系统</a>
+                </li>
+                <li class='underLine'></li>
+              </ul>
+            </div>
+          </div>
 
-	</head>
+        </li>
+        <li class='navLi'>
+          <a href="#">合作与生态
+            <!--<span></span>--></a>
+          <ul class="sonNav soluteNav">
+            <li>
+              <a href="javascript:location.href='model.html?id=partners.html'">合作伙伴</a>
+            </li>
+            <li class="underLine"></li>
+            <li>
+              <a href="javascript:location.href='model.html?id=ecology.html'">行业生态</a>
+            </li>
+          </ul>
+        </li>
+        <li class='navLi'>
+          <a href="javascript:location.href='model.html?id=about.html'">关于我们</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="id_content" style="display:none">
+  <div id="fullPage">
+    <div class="section section1" id="section0">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg1"></div>
+          <div class="swiper-slide bg2"></div>
+          <div class="swiper-slide bg3"></div>
+          <div class="swiper-slide bg4"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="section section2" id="section1">
+      <div class="container">
+        <div class="row mb50">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="productTitle sectionConTitle">产品
+              <p>Portfolio</p>
+            </div>
+          </div>
+        </div>
+        <div class="row productCon">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+            <div class="conFirst con">
+              <div>
+                <p class="icon1"><img src="images/button_protects_provide_for_the_aged_default.png"></p>
+                <p class="size1">医养结合养老</p>
+                <!--<p class="size2">Medical care for the aged</p>-->
+                <p class="size3">嘉和美康从2014年开始研究医养结合养老的相关业务，为养老机构提供全方位的医养结合养老服务信息化解决方案。同时，照护精细化管理粒度最小...</p>
+              </div>
+              <div class='hoverAnimate blue'>
 
-	<body>
-		<nav class="navbar navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-				  </button>
-					<span class="logo navbar-brand" onclick="logo('index.html&v201804')">北京嘉和美康信息技术有限公司</span>
-				</div>
-				<div class="navbar-collapse collapse navbar-right hidden-sm" role='navigation'>
-					<ul class="nav navbar-nav">
-						<li class='navLi'>
-							<a href="javascript:logo('index.html&v201701')">首页</a>
-						</li>
-						<li class='navLi'>
-							<a href="#">产品
-								<!--<span></span>--></a>
-							<div class='sonNav'>
-								<div class="productMenu">
-									<ul class="ml30">
-										<li class='grandsonTitle'>医养结合养老</li>
-										<li>
-											<a href="javascript:location.href='model.html?id=jgyanglao.html&v=201801'">健康养老平台-机构版</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=sqyanglao.html&v=201801'">健康养老平台-社区居家版</a>
-										</li>										
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=mixmedical.html&v=201701'">医养结合养老管理系统</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=longservice.html&v=201701'">长期护理险综合管理平台</a>
-										</li>
-										<li class='underLine'></li>
-									</ul>
-									<ul>
-										<li class='grandsonTitle'>医保合理支付</li>
-										<li>
-											<a href="javascript:location.href='model.html?id=sercontrol.html&v=201701'">医疗服务监控系统</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=jkmedical.html&v=201701'">医保智能监控信息系统</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=ybnormal.html&v=201701'">医保合规管理信息系统</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=ocrmedical.html&v=201701'">医保异地就医单据识别系统</a>
-										</li>
-										<li class='underLine'></li>
-									</ul>
-									<ul>
-										<li class='grandsonTitle'>区域卫生与人群健康</li>
-										<li>
-											<a href="javascript:location.href='model.html?id=jchealth.html&v=201701'">基层医疗卫生信息系统</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=qyhealth.html&v=201701'">区域卫生信息平台</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=inteplatform.html&v=201701'">卫生综合监管平台</a>
-										</li>
-										<li class='underLine'></li>
-										<li>
-											<a href="javascript:location.href='model.html?id=nodrug.html&v=201701'">非药物干预平台</a>
-										</li>
-										<li class='underLine'></li>
-									</ul>
-								</div>
-							</div>
+              </div>
+              <div class="hoverAnimateCon">
+                <p>
+                  <a href="javascript:location.href='model.html?id=jgyanglao.html'">健康养老平台-机构版</a>
+                </p>
+                <p>
+                  <a href="javascript:location.href='model.html?id=sqyanglao.html'">健康养老平台-社区居家版</a>
+                </p>
+                <p>
+                  <a href="javascript:location.href='model.html?id=mixmedical.html'">医养结合养老管理系统</a>
+                </p>
+                <p>
+                  <a href="javascript:location.href='model.html?id=longservice.html'">长期照护险综合管理平台</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+            <div class="conFirst con">
+              <div>
+                <p class="icon2"><img src="images/button_protects_medical_insurance_default.png"></p>
+                <p class="size1">医保合理支付</p>
+                <!--<p class="size2">Smart Payer</p>-->
+                <p class="size3">经过多年的研发，嘉和美康在智能监控一代（即按项目付费）系统的基础上，经过与相关行业专家和医保支付制度改革试点单位的合作，研发出符合国内...</p>
+              </div>
+              <div class='hoverAnimate green'>
 
-						</li>
-						<li class='navLi'>
-							<a href="#">合作与生态
-								<!--<span></span>--></a>
-							<ul class="sonNav soluteNav">
-								<li>
-									<a href="javascript:location.href='model.html?id=partners.html&v=201701'">合作伙伴</a>
-								</li>
-								<li class="underLine"></li>
-								<li>
-									<a href="javascript:location.href='model.html?id=ecology.html&v=201701'">行业生态</a>
-								</li>
-							</ul>
-						</li>
-						<li class='navLi'>
-							<a href="javascript:location.href='model.html?id=about.html&v=201701'">关于我们</a>
-						</li>
-						<li class="cloud">
-							<a href="javascript:location.href='model.html?id=ylCloud.html&v=201701'">养老云</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<div id="id_content" style="display:none">
-			<div id="fullPage">
-				<div class="section section1" id="section0">
-					<div class="bd">
-						<ul class="banner_list">
-							<li class="intro slide1"><!--
-								<h1 class="animated fadeInDown year">2016</h1>
-								<h2 class="animated fadeInUp newLine">养老产品全新上线</h2>
-								<p class="animated fadeInUp newLineE">Product Portfolio for Senior Care</p>-->
-							</li>
-						<!-- 	<li class="intro slide2"><h1 class="animated fadeInDown year">2016</h1>
-							<h2 class="animated fadeInUp newLine">养老产品全新上线</h2>
-							<p class="animated fadeInUp newLineE">Product Portfolio for Senior Care</p>
-						</li> -->
-					  	<li class="intro slide2"></li>
-							<li class="intro slide3">
-								<!--<h1 class="animated fadeInDown year">2016</h1>
-								<h2 class="animated fadeInUp newLine">养老产品全新上线</h2>
-								<p class="animated fadeInUp newLineE">Product Portfolio for Senior Care</p>-->
-							</li>
-							<li class="intro slide4"><!--
-								<h1 class="animated fadeInDown year">2016</h1>
-								<h2 class="animated fadeInUp newLine">养老产品全新上线</h2>
-								<p class="animated fadeInUp newLineE">Product Portfolio for Senior Care</p>-->
-							</li>
-						</ul>
-					</div>
-					<div class="banner-btn">
-						<a class="prev" href="javascript:void(0);"></a>
-						<a class="next" href="javascript:void(0);"></a>
-						<div class="hd">
-							<ul></ul>
-						</div>
-					</div>
-				</div>
-				<div class="section section2" id="section1">
-					<div class="container">
-						<div class="row mb50">
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="productTitle sectionConTitle">产品
-									<p>Portfolio</p>
-								</div>
-							</div>
-						</div>
-						<div class="row productCon">
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-								<div class="conFirst con">
-									<div>
-										<p class="icon1"><img src="images/button_protects_provide_for_the_aged_default.png"></p>
-										<p class="size1">健康养老</p>
-										<p class="size2">SaaS for Smart Senior Care</p>
-										<p class="size3">嘉和养老软件为业务管理精细化提供可量化标准;用户通过移动服务端实时记录,并提供多种信息化监督方式
-										</p>
-									</div>
-									<div class='hoverAnimate blue'>
+              </div>
+              <div class="hoverAnimateCon">
+                <p>
+                  <a href="javascript:location.href='model.html?id=sercontrol.html'">医保医疗服务监控系统</a>
+                </p>
 
-									</div>
-									<div class="hoverAnimateCon">
-										<p>
-											<a href="javascript:location.href='model.html?id=jgyanglao.html'">健康养老平台-机构版</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=sqyanglao.html'">健康养老平台-社区居家版</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=jgyanglao.html'">医养结合养老管理系统</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=sqyanglao.html'">长期照护险综合管理平台</a>
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-								<div class="conFirst con">
-									<div>
-										<p class="icon2"><img src="images/button_protects_medical_insurance_default.png"></p>
-										<p class="size1">医保监控</p>
-										<p class="size2">Smart Payer</p>
-										<p class="size3">医保智能监控主要服务于省、市各级医保管理和经办机构。相对“医保智能监控”强调基于知识库的结算审核自动化</p>
-									</div>
-									<div class='hoverAnimate green'>
+                <p>
+                  <a href="javascript:location.href='model.html?id=ybnormal.html'">医保合规管理系统</a>
+                </p>
+                <p>
+                  <a href="javascript:location.href='model.html?id=ocrmedical.html'">医保异地就医单据识别系统</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+            <div class="conFirst con">
+              <div>
+                <p class="icon3"><img src="images/button_protects_population_health_default.png"></p>
+                <p class="size1">区域卫生与人群健康</p>
+                <!--<p class="size2">Population health</p>-->
+                <p class="size3">健康管理包括3个环节，信息采集、评估和干预，三者循环往复，促进健康。嘉和美康依托多年的医疗卫生信息化服务经验，研发了非药物干预系统和卫...</p>
+              </div>
+              <div class='hoverAnimate blue'>
+              </div>
+              <div class="hoverAnimateCon">
+                <p>
+                  <a href="javascript:location.href='model.html?id=jchealth.html'">基层医疗卫生信息系统</a>
+                </p>
+                <p>
+                  <a href="javascript:location.href='model.html?id=qyhealth.html'">区域卫生信息平台</a>
+                </p>
+                <p>
+                  <a href="javascript:location.href='model.html?id=inteplatform.html'">卫生综合监管平台</a>
+                </p>
+                <p>
+                  <a href="javascript:location.href='model.html?id=nodrug.html'">非药物干预系统</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section3" id="section2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
 
-									</div>
-									<div class="hoverAnimateCon">
-										<p>
-											<a href="javascript:location.href='model.html?id=jkmedical.html'">医保医疗服务监控系统</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=jkmedical.html'">医保智能监控信息系统</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=hgmedical.html'">医保合规管理信息系统</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=ocrmedical.html'">医保异地就医单据识别系统</a>
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-								<div class="conFirst con">
-									<div>
-										<p class="icon3"><img src="images/button_protects_population_health_default.png"></p>
-										<p class="size1">人群健康</p>
-										<p class="size2">Population health</p>
-										<p class="size3">人群大健康综合管理平台,是在人群大健康管理范畴内,具有充分前瞻性设计和规划</p>
-									</div>
-									<div class='hoverAnimate blue'>
+            <div class="partnerTitle sectionConTitle2">合作伙伴
+              <p>Partners</p>
+            </div>
+          </div>
+        </div>
+        <div class="partnerCon">
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-xs-2"></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-left">
+              <img src="images/parImages/hf_logo_bg1.png"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-left">
+              <img src="images/parImages/hf_logo_bg2.png"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-left">
+              <img src="images/parImages/hf_logo_bg3.png"/>
+            </div>
+            <div class="col-lg-1 col-md-1 col-xs-1"></div>
+          </div>
+          <div class="row picSize">
+            <div class="col-lg-3 col-md-3 col-xs-3">
+              <img src="images/parImages/hf_logo_bg4.png"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-center">
+              <img src="images/parImages/hf_logo_bg5.png"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-center">
+              <img src="images/parImages/hf_logo_bg6.png"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3">
+              <img src="images/parImages/hf_logo_bg7.png"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+            <p class="partnerMore">
+              <a href="javascript:location.href='model.html?id=partners.html'">更多...</a>
+            </p>
+          </div>
+        </div>
+      </div>
 
-									</div>
-									<div class="hoverAnimateCon">
-										<p>
-											<a href="javascript:location.href='model.html?id=jchealth.html'">基层医疗卫生信息系统</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=qyhealth.html'">区域卫生信息平台</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=grhealth.html'">卫生综合监管平台</a>
-										</p>
-										<p>
-											<a href="javascript:location.href='model.html?id=grhealth.html'">非药物干预系统</a>
-										</p>
-									</div>
+    </div>
+    <div class="section section4" id="section3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="industryTitle sectionConTitle">行业生态
+              <p>Industry Ecology</p>
+            </div>
+          </div>
+        </div>
+        <div class="row industryCon ">
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <p class='industryNews'>
+              <img src="images/newsImages/newsimg0.jpg"/>
+              <a href="javascript:location.href='model.html?id=newsInfo.html'">互联网+医疗健康</a>
+            </p>
+            <p class="industryLeftTitle">
+              <a href="javascript:location.href='model.html?id=newsInfo.html'">"互联网+医疗健康"是健康中国建设的必选项</a>
+            </p>
+            <p class="industryLeftCon">
+              在健康中国战略下，如何为全体国民提供全方位全周期的健康服务，"互联网+医疗健康"是必选项，其在改善就医体验、优化资源配置、提高服务效率和质量等方面发挥了重要作用。</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12" id="showNews">
+            <!--<div class="row">
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right">
+              <p><img src="images/newsImages/news8img01.jpg" style="width:60px;height: 50px"/></p>
+            </div>
+            <div class="col-lg-9 col-md-9 col-xs-9">
+              <p class="industryRightCon">
+                <a href="javascript:location.href='model.html?id=news_eight.html'">嘉和美康重要客户北医三院荣获亚洲医院管理—科技创新最佳实践项目卓越奖</a>
+              </p>
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-xs-3 text-right">
+                <p><img src="images/newsImages/news7img1.jpg" style="width: 60px; height: 60px;"/></p>
+              </div>
+              <div class="col-lg-9 col-md-9 col-xs-9">
+                <p class="industryRightCon">
+                  <a href="javascript:location.href='model.html?id=new_seven.html'">嘉和医保及医养产品亮相2018 CHIMA大会</a>
+                </p>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-lg-3 col-md-3 col-xs-3 text-right">
+                <p><img src="images/newsImages/news1img1.jpg" style="width:60px;height: 60px"/></p>
+              </div>
+              <div class="col-lg-9 col-md-9 col-xs-9">
+                <p class="industryRightCon">
+                  <a href="javascript:location.href='model.html?id=new_first.html'">医疗云时代 我们在路上 嘉和美康2018CHIMA大会绽放异彩</a>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-xs-3 text-right">
+                <p><img src="images/newsImages/news2img01.jpg" style="width:60px;height: 60px"/></p>
+              </div>
+              <div class="col-lg-9 col-md-9 col-xs-9">
+                <p class="industryRightCon">
+                  <a href="javascript:location.href='model.html?id=new_second.html'">时刻走在技术前沿：嘉和美康通过2018 FHIR
+                    Connectation测试</a>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-xs-3 text-right">
+                <p><img src="images/newsImages/news3img1.jpg" style="width:60px;height: 60px"/></p>
+              </div>
+              <div class="col-lg-9 col-md-9 col-xs-9">
+                <p class="industryRightCon">
+                  <a href="javascript:location.href='model.html?id=new_third.html'">智能数据共享 赋能医疗健康 第22届软博会嘉和美康亮点十足</a>
+                </p>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section5" id="section4">
+      <div class="container sectionAboutUs">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="aboutTitle sectionConTitle">关于我们
+              <p>About Us</p>
+            </div>
+          </div>
+        </div>
+        <div class="row aboutContent">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <p class='company'>区域产品与技术中心</p>
+            <p class="size3 aboutIntro">
+              区域产品与技术中心2014年正式投入运行，是北京嘉和美康信息技术有限公司专业负责区域业务的部门，团队核心管理和研发人员均为相关领域资深人士，包括养老、医保、卫生健康领域的业务专家和移动互联、云技术、大数据等IT领域的技术专家。
+            </p>
+            <p class="size3 aboutIntro mt10">
+              嘉和美康区域产品与技术中心致力于提供构建大健康产业链下的区域卫生与人群健康管理、医养结合养老和医保合理支付等方向的规划咨询、解决方案和信息化服务，是国内率先探索病种支付制度下医保医疗服务智能监控、长期照护险综合管理以及医养结合养老服务信息化的实践者，是卫生综合管理与监控、健康老龄化、医保合理支付综合解决方案的供应商。
+            <p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+            <p>
+              <a class="moreBtn" href="javascript:location.href='model.html?id=about.html'"/>了解更多</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footerCon">
+      <div class="footer">
+        <p>&copy;
+          <script>
+            document.write((new Date()).getFullYear())
+          </script>
+          北京嘉美在线科技有限公司
+          <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备15060005号-1</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='backToTop'>
+  <a href="#page1"></a>
+</div>
 
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="section section3" id="section2">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12">
+<script src="plugins/fullpage/jquery.fullPage.min.js"></script>
+<script src="plugins/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/common.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+  $(function () {
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true, // 点击切换
+        effect: "fade", // 切换效果
+      },
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      /*autoplay:true*/
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    })
 
-								<div class="partnerTitle sectionConTitle2">合作伙伴
-									<p>Partners</p>
-								</div>
-							</div>
-						</div>
-						<div class="partnerCon">
-							<div class="row">
-								<div class="col-lg-2 col-md-2 col-xs-2"></div>
-								<div class="col-lg-3 col-md-3 col-xs-3 text-left">
-									<img src="images/qs_logo_bg.png" />
-								</div>
-								<div class="col-lg-3 col-md-3 col-xs-3 text-left">
-									<img src="images/hf_logo_bg.png" />
-								</div>
-								<div class="col-lg-3 col-md-3 col-xs-3 text-left">
-									<img src="images/wr_logo_bg.png" />
-								</div>
-								<div class="col-lg-1 col-md-1 col-xs-1"></div>
-							</div>
-							<div class="row picSize">
-								<div class="col-lg-3 col-md-3 col-xs-3">
-									<img src="images/ll_logo_bg.png" />
-								</div>
-								<div class="col-lg-3 col-md-3 col-xs-3 text-center">
-									<img src="images/sy_logo_bg.png" />
-								</div>
-								<div class="col-lg-3 col-md-3 col-xs-3 text-center">
-									<img src="images/pl_logo_bg.png" />
-								</div>
-								<div class="col-lg-3 col-md-3 col-xs-3">
-									<img src="images/partner_logo_zl.png" />
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12 text-center">
-								<p class="partnerMore">
-									<a href="javascript:location.href='model.html?id=partners.html'">更多...</a>
-								</p>
-							</div>
-						</div>
-					</div>
+    $('.header-menu li:has(ul)').hover(function () {
+      console.log($(this))
+      $(this).children('span').css('color', '#9ECB43')
+      $(this).children('ul').stop(true, true).slideDown(500)
+    }, function () {
+      $(this).children('span').css('color', '#333333')
+      $(this).children("ul").stop(true, true).slideUp("fast")
+    })
 
-				</div>
-				<div class="section section4" id="section3">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="industryTitle sectionConTitle">行业生态
-									<p>Industry Ecology</p>
-								</div>
-							</div>
-						</div>
-						<div class="row industryCon ">
-							<div class="col-lg-6 col-md-6 col-xs-12">
-								<p class='industryNews'>
-									<img src="images/IndustryImg.jpg" />
-									<a href="javascript:location.href='model.html?id=newsInfo.html'">互联网+医疗</a>
-								</p>
-								<p class="industryLeftTitle">
-									<a href="javascript:location.href='model.html?id=newsInfo.html'">互联网+医疗 重新定义看病</a>
-								</p>
-								<p class="industryLeftCon">6月24日召开的国务院常务会议，部署推进“互联网+”行动。会议认为，推动互联网与各行业深度融合，对促进大众创业、万众创新，加快形成经济发展新动能，意义重大。</p>
-							</div>
-							<div class="col-lg-6 col-md-6 col-xs-12">
-								<div class="row ">
-									<div class="col-lg-3 col-md-3 col-xs-3 text-right">
-										<p><img src="images/info1.jpg" /></p>
-									</div>
-									<div class="col-lg-9 col-md-9 col-xs-9">
-										<p class="industryRightCon">
-											<a href="javascript:location.href='model.html?id=new_first.html'">陕西省在医改方面将推行二级医院和基层医疗卫生机构全面实行一体化政策，三级医院推行医联体。</a>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-lg-3 col-md-3 col-xs-3 text-right">
-										<p><img src="images/info2.jpg" /></p>
-									</div>
-									<div class="col-lg-9 col-md-9 col-xs-9">
-										<p class="industryRightCon">
-											<a href="javascript:location.href='model.html?id=new_second.html'">哈尔滨市人社局将拓展医保网上查询业务，在现有网上查询功能基础上，拓展医保查询业务等。</a>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-lg-3 col-md-3 col-xs-3 text-right">
-										<p><img src="images/info3.jpg" /></p>
-									</div>
-									<div class="col-lg-9 col-md-9 col-xs-9">
-										<p class="industryRightCon">
-											<a href="javascript:location.href='model.html?id=new_third.html'">泉州市将进一步放宽社会办医准入条件，引入民间资本构建多元化医疗格局，建立健全适应泉州经济社会发展。</a>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-lg-3 col-md-3 col-xs-3 text-right">
-										<p><img src="images/info4.jpg" /></p>
-									</div>
-									<div class="col-lg-9 col-md-9 col-xs-9">
-										<p class="industryRightCon">
-											<a href="javascript:location.href='model.html?id=new_four.html'">“千万不要小看家政服务、社会养老，这些都是朝阳产业！”李克强6日参加山东代表团审议时表示。</a>
-										</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-lg-3 col-md-3 col-xs-3 text-right">
-										<p><img src="images/info5.jpg" /></p>
-									</div>
-									<div class="col-lg-9 col-md-9 col-xs-9">
-										<p class="industryRightCon">
-											<a href="javascript:location.href='model.html?id=new_five.html'">2014年6月24日-25日，人力资源社会保障部在山东省济南市召开全国医疗保险工作座谈会。</a>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="section section5" id="section4">
-					<div class="container sectionAboutUs">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<div class="aboutTitle sectionConTitle">关于我们
-									<p>About Us</p>
-								</div>
-							</div>
-						</div>
-						<div class="row aboutContent">
-							<div class="col-lg-12 col-md-12 col-xs-12">
-								<p class='company'>区域产品与技术中心</p>
-								<p class="size3 aboutIntro">区域产品与技术中心2013年成立，是北京嘉和美康信息技术有限公司专业负责区域业务的部门，团队核心管理和研发人员均为各领域资深人士，包括养老、医保、卫生领域的业务专家和移动互联、云技术、大数据等IT领域的技术专家。
-								</p>
-								<p class="size3 aboutIntro mt10">嘉和美康区域产品与技术中心致力于提供构建大健康产业链的医保合理支付、医养结合养老和人群健康等方向的咨询、解决方案和信息化服务，是国内率先探索病种支付制度下医保医疗服务智能监控、长期照护险综合管理以及医养结合养老服务信息化的实践者，是医疗、卫生综合管理与监控、人群健康与养老、医保合理支付综合解决方案的提供者。</p>
-								<p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-xs-12 text-center">
-								<p>
-									<a class="moreBtn" href="javascript:location.href='model.html?id=about.html'" />了解更多</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footerCon">
-					<div class="footer">
-						<p>&copy;
-							<script>
-								document.write((new Date()).getFullYear())
-							</script>北京嘉美在线科技有限公司
-							<a href="http://www.miibeian.gov.cn/
-								" target="_blank">京ICP备15060005号-1</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id='backToTop'>
-			<a href="#page1"></a>
-		</div>
+    //获取加载新闻
+    $.get("./data/newsData.json",function (data,status) {
+      var newsArr = data.slice(0, 5);
+      for (var i = 0; i < newsArr.length; i++) {
+        var href = "model.html?id="+ newsArr[i].url;
+        var $newsDiv = $("<div class='row'>" +
+          "<div class='col-lg-3 col-md-3 col-xs-3 text-right'>" +
+          "<p><img src="+ newsArr[i].imgSrc +" style='width:60px;height: 60px;'/></p>" +
+          "</div><div class='col-lg-9 col-md-9 col-xs-9'><p class='industryRightCon'>" +
+          "<a href= "+ href +">"+ newsArr[i].title +"</a>" +
+          "</p></div></div>");
+        $newsDiv.appendTo("#showNews");
+      }
+    })
 
-		<script src="plugins/fullpage/jquery.fullPage.min.js"></script>
-		<script src="plugins/jquery.SuperSlide.2.1.1.js"></script>
-		<script src="js/common.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script src="js/index.js"></script>
-
-	</body>
+  })
+</script>
+</body>
 
 </html>

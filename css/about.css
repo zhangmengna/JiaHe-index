@@ -1,29 +1,68 @@
-.conRightCon > .pics{
-  width:102%;
-  overflow: hidden;
-}
-.conRightCon > .pics > .pic{
-  float: left;
-  width:18%;
-  margin-right:2%;
-  display: block;
-  margin-bottom: 2%;
-}
-.conRightCon > .pics > .pic > img{
-  width:100%;
-}
-.mark{
-  width:100%;
-  overflow: hidden;
-  display: none;
-  background: #fff;
-}
-.mark >.show{
-  width:40%;
-  margin:0 auto;
-  background: pink;
-}
-.mark>.show>img{
-  width:100%;
 
+/*@media (min-width:992px) {
+  .conRightCon .table tbody tr td{
+    width:130px;
+    height:95px;
+  }
 }
+@media (min-width:768px) and (max-width:992px) {
+  .conRightCon .table tbody tr td{
+    width:100px;
+    height:70px;
+  }
+}
+@media (max-width:768px) {
+  .conRightCon .table tbody tr td{
+    display: none;
+  }
+}*/
+/*.conRightCon > .pics > .pic >.img1{
+  background: url("../images/img1.JPG") no-repeat center;
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img2{
+  background: url("../images/img2.JPG") no-repeat center;
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img3{
+  !*background: url("../images/img4.JPG") no-repeat;*!
+  background-size: contain;
+  background-position: center ;
+}
+.conRightCon > .pics > .pic >.img4{
+  background: url("../images/img4.JPG") no-repeat center;
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img5{
+  background: url("../images/img5.JPG") no-repeat center;
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img6{
+  background: url("../images/img6.JPG") no-repeat center;
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img7{
+  background: url("../images/img7.JPG") no-repeat center;
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img8{
+  !* background: url("../images/img5.JPG") no-repeat center;*!
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img9{
+  background: url("../images/img9.JPG") no-repeat center;
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.img10{
+  !*background: url("../images/img5.JPG") no-repeat center;*!
+  background-size: contain;
+}
+.conRightCon > .pics > .pic >.text{
+  font-size: 13px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}*/
+
